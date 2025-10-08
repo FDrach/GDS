@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Interactivo</title>
+    <style>
+        /* Basic Reset & Font */
+        :root {
+            --primary-color: #0d6efd;
+            --correct-bg: #d1e7dd;
+            --correct-border: #a3cfbb;
+            --correct-text: #0a3622;
+            --incorrect-bg: #f8d7da;
+            --incorrect-border: #f1aeb5;
+            --incorrect-text: #58151c;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #212529;
+            --border-color: #dee2e6;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Main Layout */
+        .main-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+        }
+
+        /* Question Block */
+        .question-block {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .question-header {
+            margin-bottom: 16px;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .question-number {
+            font-weight: bold;
+        }
+
+        .question-text {
+            font-size: 1.1em;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        /* Answers */
+        .answers .answer-option {
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 14px;
+            margin-top: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .answers .answer-option:hover {
+            background-color: #f1f3f5;
+            border-color: #adb5bd;
+        }
+
+        .answer-option.correct {
+            background-color: var(--correct-bg);
+            border-color: var(--correct-border);
+            color: var(--correct-text);
+            font-weight: bold;
+        }
+
+        .answer-option.incorrect {
+            background-color: var(--incorrect-bg);
+            border-color: var(--incorrect-border);
+            color: var(--incorrect-text);
+        }
+
+        .answers.disabled .answer-option {
+            cursor: default;
+            pointer-events: none;
+            opacity: 0.8;
+        }
+
+        .answers.disabled .answer-option:hover {
+            background-color: transparent;
+            border-color: var(--border-color);
+        }
+
+        .answers.disabled .answer-option.correct {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Examen Interactivo</h1>
+        <div id="quiz-container">
+            <!-- Las preguntas se cargarán aquí -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const quizContainer = document.getElementById('quiz-container');
+            const PROGRESS_KEY = 'examProgress'; // Use a different key for the new exam
+
+            let quizProgress = {};
+
+            /** Loads saved answers from localStorage. */
+            const loadProgress = () => {
+                const savedProgress = localStorage.getItem(PROGRESS_KEY);
+                quizProgress = savedProgress ? JSON.parse(savedProgress) : {};
+            };
+
+            /** Saves the current answers to localStorage. */
+            const saveProgress = () => {
+                localStorage.setItem(PROGRESS_KEY, JSON.stringify(quizProgress));
+            };
+            
+            /**
+             * Handles the click event on an answer option, saves progress, and shows results.
+             * @param {Event} event - The click event.
+             * @param {object} question - The question object.
+             */
+            const handleAnswerClick = (event, question) => {
+                const selectedOption = event.currentTarget;
+                const answersContainer = selectedOption.parentElement;
+                
+                answersContainer.classList.add('disabled');
+
+                const selectedIndex = Array.from(answersContainer.children).indexOf(selectedOption) + 1;
+                const correctIndex = question.correct;
+
+                // Highlight the correct answer in green
+                const correctOption = answersContainer.children[correctIndex - 1];
+                if (correctOption) {
+                    correctOption.classList.add('correct');
+                }
+
+                // If the selected answer is incorrect, highlight it in red
+                if (selectedIndex !== correctIndex) {
+                    selectedOption.classList.add('incorrect');
+                }
+                
+                // Save progress using question ID as key
+                quizProgress[question.id] = selectedIndex;
+                saveProgress();
+            };
+            
+            /** Renders the entire quiz based on the fetched questions and saved progress. */
+            const renderQuiz = (questions) => {
+                questions.forEach(question => {
+                    const questionBlock = document.createElement('div');
+                    questionBlock.className = 'question-block';
+                    
+                    // Header
+                    const header = document.createElement('div');
+                    header.className = 'question-header';
+                    header.innerHTML = `<span class="question-number">Pregunta #${question.id}</span>`;
+                    questionBlock.appendChild(header);
+
+                    // Question text
+                    const questionText = document.createElement('p');
+                    questionText.className = 'question-text';
+                    questionText.textContent = question.q; // Use 'q' for question text
+                    questionBlock.appendChild(questionText);
+
+                    // Answers
+                    const answersContainer = document.createElement('div');
+                    answersContainer.className = 'answers';
+                    
+                    question.a.forEach((answerText) => { // Use 'a' for answers array
+                        const answerOption = document.createElement('div');
+                        answerOption.className = 'answer-option';
+                        answerOption.innerHTML = `<p style="margin: 0;">${answerText}</p>`;
+                        
+                        answerOption.addEventListener('click', (event) => handleAnswerClick(event, question));
+                        answersContainer.appendChild(answerOption);
+                    });
+                    questionBlock.appendChild(answersContainer);
+                    
+                    quizContainer.appendChild(questionBlock);
+
+                    // Apply saved progress if it exists
+                    const savedAnswerIndex = quizProgress[question.id];
+                    if (savedAnswerIndex) {
+                        answersContainer.classList.add('disabled');
+                        const correctOption = answersContainer.children[question.correct - 1];
+                        if (correctOption) correctOption.classList.add('correct');
+                        
+                        if (savedAnswerIndex !== question.correct) {
+                            const selectedOption = answersContainer.children[savedAnswerIndex - 1];
+                            if (selectedOption) selectedOption.classList.add('incorrect');
+                        }
+                    }
+                });
+            };
+
+            // ---- Main Execution ----
+            
+            // Load progress from localStorage first
+            loadProgress();
+
+            // Fetch questions from the JSON file and render the quiz
+            fetch('exam_data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data && data.response && Array.isArray(data.response)) {
+                        renderQuiz(data.response); // Access the questions via data.response
+                    } else {
+                        throw new Error("El formato del JSON no es el esperado. Se esperaba un objeto con una propiedad 'response' que sea un array.");
+                    }
+                })
+                .catch(error => {
+                    console.error('Error al cargar las preguntas:', error);
+                    quizContainer.innerHTML = `<p style="color: red; text-align: center;">Hubo un error al cargar el examen. Asegúrate de que el archivo 'exam_data.json' se encuentre en el mismo directorio y tenga el formato correcto.</p>`;
+                });
+        });
+    </script>
+</body>
+</html>

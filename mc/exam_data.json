@@ -1,0 +1,3304 @@
+{
+  "response": [
+    {
+      "id": 1,
+      "q": "En la gestión de proyectos de software, ¿qué se entiende por \"scope creep\"?",
+      "a": [
+        "El crecimiento descontrolado del alcance del proyecto, agregando funcionalidades no planificadas.",
+        "La fase inicial de un proyecto donde se define el alcance.",
+        "La reducción del presupuesto asignado a un proyecto.",
+        "Una técnica para documentar los requerimientos del cliente de forma ágil."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "q": "La afirmación \"El sistema debe responder en menos de 2 segundos para 100 usuarios concurrentes\" es un ejemplo de:",
+      "a": [
+        "Un requerimiento funcional.",
+        "Un requerimiento no funcional (de rendimiento).",
+        "Un supuesto del proyecto.",
+        "Un requerimiento de dominio."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "q": "Según la Matriz de Poder-Interés, ¿cuál es la estrategia recomendada para gestionar a los stakeholders con alto poder pero bajo interés?",
+      "a": [
+        "Involucrarlos estrechamente en todas las decisiones diarias.",
+        "Supervisarlos con un esfuerzo mínimo.",
+        "Mantenerlos satisfechos, proveyendo información concisa y ejecutiva.",
+        "Mantenerlos informados con reportes detallados y frecuentes."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 4,
+      "q": "En el contexto de los objetivos SMART, la letra 'T' (Time-bound) implica que el objetivo debe:",
+      "a": [
+        "Utilizar la tecnología más avanzada.",
+        "Ser fácil de testear por el equipo de calidad.",
+        "Tener un impacto tangible en el negocio.",
+        "Estar enmarcado en un plazo de tiempo definido y con una fecha límite."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 5,
+      "q": "¿Cuál es la diferencia fundamental entre el 'proceso' y el 'producto' en el desarrollo de software?",
+      "a": [
+        "El proceso es responsabilidad del cliente y el producto del equipo.",
+        "El proceso se refiere al código fuente y el producto al software compilado.",
+        "El proceso es 'el cómo' se crea (metodología, actividades), mientras que el producto es 'el qué' se entrega al cliente.",
+        "El proceso se mide en horas-hombre y el producto en líneas de código."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 6,
+      "q": "¿Cuál es el propósito principal de documentar explícitamente las 'exclusiones' en el alcance de un proyecto?",
+      "a": [
+        "Listar las funcionalidades que se agregarán en futuras versiones.",
+        "Evitar malentendidos estableciendo límites claros y proteger al equipo de trabajo extra no planificado.",
+        "Definir los riesgos técnicos identificados durante la planificación.",
+        "Enumerar las herramientas de desarrollo que no se utilizarán."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "q": "¿Qué relación existe entre un 'supuesto' y un 'riesgo' en la gestión de proyectos?",
+      "a": [
+        "Son términos idénticos para describir un problema futuro.",
+        "Un riesgo es un supuesto que ha sido aprobado por el cliente.",
+        "Un supuesto no validado representa una fuente potencial de riesgo; si el supuesto resulta ser falso, el riesgo se materializa.",
+        "Los supuestos son positivos y los riesgos son siempre negativos."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 8,
+      "q": "El concepto de \"pudrición del software\" (software rot) se refiere a:",
+      "a": [
+        "El desgaste físico de los medios de almacenamiento donde se guarda el software.",
+        "La dificultad creciente para mantener el software porque su entorno (hardware, SO, APIs) cambia con el tiempo.",
+        "La cantidad de errores o 'bugs' que contiene una versión del software.",
+        "El uso de un lenguaje de programación obsoleto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "q": "En metodologías ágiles como Scrum, los Criterios de Aceptación se documentan típicamente:",
+      "a": [
+        "En un único documento formal de requerimientos al inicio del proyecto.",
+        "Como parte integral de cada Historia de Usuario para definir cuándo está 'hecha'.",
+        "En las actas de reunión con el cliente.",
+        "En el plan de pruebas que se elabora al final del desarrollo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 10,
+      "q": "El objetivo principal de una Propuesta de Proyecto de software es:",
+      "a": [
+        "Servir como manual de usuario final del sistema.",
+        "Funcionar como un contrato legalmente vinculante y detallado.",
+        "Ser una herramienta para documentar todos los errores del sistema.",
+        "Convencer a los stakeholders de la viabilidad y valor de un proyecto para obtener su aprobación y financiación."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 11,
+      "q": "La afirmación \"El sistema debe permitir a los usuarios registrarse con email y contraseña\" es un ejemplo de:",
+      "a": [
+        "Requerimiento no funcional.",
+        "Requerimiento funcional.",
+        "Criterio de aceptación.",
+        "Restricción técnica."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "q": "¿Cuál de las siguientes NO es una característica del software?",
+      "a": [
+        "Es intangible.",
+        "Evoluciona con el tiempo.",
+        "Se desgasta físicamente con el uso.",
+        "Es complejo."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 13,
+      "q": "Un IDE (Entorno de Desarrollo Integrado) como Visual Studio Code se clasifica como:",
+      "a": [
+        "Software de Sistema.",
+        "Software de Aplicación.",
+        "Software de Desarrollo.",
+        "Firmware."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 14,
+      "q": "En la analogía de la construcción, el producto final (el edificio terminado) es equivalente a:",
+      "a": [
+        "El proceso de software.",
+        "El producto de software.",
+        "La gestión de riesgos.",
+        "Los stakeholders."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "q": "La etapa de la Ingeniería de Requerimientos donde se obtienen las necesidades de los usuarios a través de entrevistas o talleres se llama:",
+      "a": [
+        "Especificación.",
+        "Validación.",
+        "Análisis.",
+        "Elicitación."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 16,
+      "q": "La \"Triple Restricción\" de la gestión de proyectos se refiere a la interdependencia entre:",
+      "a": [
+        "Calidad, Riesgos y Recursos.",
+        "Tiempo, Costo y Alcance.",
+        "Cliente, Equipo y Gerente de Proyecto.",
+        "Hardware, Software y Redes."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "q": "Si un cliente solicita agregar una nueva funcionalidad no planificada a mitad del proyecto sin aumentar el tiempo ni el presupuesto, está introduciendo un riesgo de:",
+      "a": [
+        "Scope creep.",
+        "Baja calidad.",
+        "Desmotivación del equipo.",
+        "Todas las anteriores."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 18,
+      "q": "Un patrocinador del proyecto, que financia el desarrollo y tiene alta capacidad de decisión, típicamente se ubica en la Matriz de Poder-Interés en el cuadrante de:",
+      "a": [
+        "Bajo poder, bajo interés.",
+        "Alto poder, alto interés.",
+        "Bajo poder, alto interés.",
+        "Alto poder, bajo interés."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "q": "El objetivo \"Mejorar la satisfacción del cliente\" es un mal objetivo porque carece principalmente de:",
+      "a": [
+        "Relevancia (Relevance).",
+        "Medibilidad (Measurability) y Temporalidad (Time-bound).",
+        "Alcanzabilidad (Achievability).",
+        "Especificidad (Specificity)."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 20,
+      "q": "¿Qué define un 'Criterio de Aceptación'?",
+      "a": [
+        "Los objetivos generales del proyecto.",
+        "Una condición específica y verificable que define cuándo un entregable está 'terminado' y es aceptable.",
+        "Los supuestos que el equipo hace durante la planificación.",
+        "Las tecnologías que se deben utilizar en el proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "q": "Un Sistema Operativo como Windows o macOS se clasifica como:",
+      "a": [
+        "Software de Aplicación.",
+        "Software de Desarrollo.",
+        "Software de Sistema.",
+        "Software Embebido."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 22,
+      "q": "La afirmación \"Se asume que el cliente proporcionará el contenido gráfico antes del 15 de mayo\" es un ejemplo de:",
+      "a": [
+        "Una restricción.",
+        "Un riesgo.",
+        "Una inclusión.",
+        "Un supuesto."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 23,
+      "q": "El caso real de la sonda Mars Climate Orbiter de la NASA es un ejemplo de las catastróficas consecuencias de:",
+      "a": [
+        "Un presupuesto de proyecto insuficiente.",
+        "Una mala gestión de los stakeholders.",
+        "Una deficiente ingeniería de requerimientos (confusión de unidades).",
+        "Un equipo de desarrollo sin la experiencia técnica necesaria."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 24,
+      "q": "El primer paso metodológico recomendado para elaborar una propuesta de proyecto es:",
+      "a": [
+        "Estimar los costos y el cronograma.",
+        "Diseñar la solución técnica en detalle.",
+        "Recolectar información para comprender profundamente el problema.",
+        "Redactar el resumen ejecutivo."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 25,
+      "q": "Un requerimiento que surge de una normativa legal o de la industria, como la norma PCI DSS para transacciones bancarias, se conoce como:",
+      "a": [
+        "Requerimiento funcional.",
+        "Requerimiento de dominio.",
+        "Requerimiento no funcional.",
+        "Requerimiento de usuario."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 26,
+      "q": "El documento que identifica a todas las personas, grupos u organizaciones que pueden afectar o ser afectados por el proyecto se llama:",
+      "a": [
+        "Acta de Constitución del Proyecto.",
+        "Plan de Gestión de Riesgos.",
+        "Registro de Interesados (Stakeholder Register).",
+        "Documento de Alcance."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 27,
+      "q": "En la Matriz de Poder-Interés, la estrategia para los stakeholders de bajo poder y alto interés es:",
+      "a": [
+        "Gestionarlos de cerca.",
+        "Mantenerlos satisfechos.",
+        "Monitorearlos con esfuerzo mínimo.",
+        "Mantenerlos informados."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 28,
+      "q": "La métrica para evaluar la calidad de un 'producto' de software sería:",
+      "a": [
+        "El cumplimiento de los plazos del cronograma.",
+        "La productividad del equipo de desarrollo.",
+        "El nivel de satisfacción del usuario y la cantidad de defectos.",
+        "El costo total del proyecto."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 29,
+      "q": "La métrica para evaluar la calidad de un 'proceso' de software sería:",
+      "a": [
+        "La facilidad de uso de la interfaz de usuario.",
+        "La eficiencia, la predictibilidad y el cumplimiento de los plazos.",
+        "La cantidad de funcionalidades entregadas.",
+        "El rendimiento del software bajo carga."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 30,
+      "q": "¿Qué significa la 'A' (Achievable) en los objetivos SMART?",
+      "a": [
+        "Que el objetivo debe ser agresivo y ambicioso.",
+        "Que el objetivo debe poder ser aprobado por la gerencia.",
+        "Que el objetivo debe ser realista y posible de lograr con los recursos disponibles.",
+        "Que el objetivo debe estar alineado con la estrategia de la empresa."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 31,
+      "q": "Un documento que establece \"No se desarrollará una aplicación móvil en esta fase\" está definiendo:",
+      "a": [
+        "Una inclusión.",
+        "Una exclusión.",
+        "Un riesgo.",
+        "Un supuesto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 32,
+      "q": "La principal ventaja de la característica \"fácilmente replicable\" del software es:",
+      "a": [
+        "Que el costo de producir copias adicionales es casi nulo.",
+        "Que el software nunca se vuelve obsoleto.",
+        "Que es fácil de modificar y mantener.",
+        "Que no requiere hardware para funcionar."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 33,
+      "q": "¿Cuál de los siguientes es un entregable de un proyecto de software?",
+      "a": [
+        "Una reunión de seguimiento con el cliente.",
+        "El manual de usuario del sistema.",
+        "La experiencia del desarrollador líder.",
+        "El presupuesto aprobado."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 34,
+      "q": "La etapa de validación en la Ingeniería de Requerimientos tiene como objetivo:",
+      "a": [
+        "Confirmar que los requerimientos documentados reflejan fielmente lo que el cliente necesita.",
+        "Probar el código para asegurarse de que no tiene errores.",
+        "Validar que el presupuesto del proyecto es suficiente.",
+        "Asegurarse de que el equipo de desarrollo entiende la tecnología a usar."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "q": "Una \"restricción técnica\" en un proyecto de software podría ser:",
+      "a": [
+        "El presupuesto total no puede exceder los $50,000.",
+        "El proyecto debe finalizar antes del 31 de diciembre.",
+        "La aplicación debe desarrollarse obligatoriamente usando el framework React Native.",
+        "El cliente debe aprobar cada entregable."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 36,
+      "q": "Cuando un supuesto resulta ser falso, ¿en qué se convierte?",
+      "a": [
+        "En un requerimiento funcional.",
+        "En una restricción.",
+        "En un problema o riesgo materializado que debe ser gestionado.",
+        "En una exclusión del alcance."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 37,
+      "q": "La práctica de desarrollar un producto exitoso pero a costa de un trabajo excesivo y sostenido por parte del equipo se conoce como:",
+      "a": [
+        "Metodología ágil.",
+        "Proceso de software optimizado.",
+        "Crunch.",
+        "Scope creep."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 38,
+      "q": "La sección más importante de una propuesta de proyecto para un lector ocupado (como un directivo) es:",
+      "a": [
+        "El cronograma detallado.",
+        "El resumen ejecutivo.",
+        "La descripción técnica de la arquitectura.",
+        "El listado del equipo de proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 39,
+      "q": "El objetivo \"Desarrollar un sistema de turnos online para optimizar la atención al cliente\" es un ejemplo de:",
+      "a": [
+        "Objetivo específico.",
+        "Objetivo general.",
+        "Criterio de aceptación.",
+        "Tarea del proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 40,
+      "q": "El objetivo \"Reducir en un 30% las filas en sucursales\" es un ejemplo de:",
+      "a": [
+        "Objetivo específico.",
+        "Objetivo general.",
+        "Visión del proyecto.",
+        "Restricción de alcance."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 41,
+      "q": "¿Por qué es importante que un criterio de aceptación sea 'verificable'?",
+      "a": [
+        "Para que el cliente pueda entenderlo fácilmente.",
+        "Porque debe ser posible comprobar objetivamente si se cumple o no.",
+        "Para asegurar que el proyecto sea rentable.",
+        "Porque debe estar escrito en un lenguaje formal."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 42,
+      "q": "En el contexto de la gestión de proyectos, ¿qué es un stakeholder interno?",
+      "a": [
+        "Un cliente que paga por el proyecto.",
+        "Un miembro de la organización que desarrolla el proyecto, como un programador o un gerente.",
+        "Un organismo regulador gubernamental.",
+        "Un proveedor de servicios externos como el hosting."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 43,
+      "q": "El software como Gmail o Netflix, que se accede a través de internet, se clasifica como:",
+      "a": [
+        "Software embebido.",
+        "Software de sistema.",
+        "Servicios web o SaaS (Software as a Service).",
+        "Software de desarrollo."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 44,
+      "q": "El principal riesgo de depender únicamente de conversaciones orales para definir los requerimientos es:",
+      "a": [
+        "Que las reuniones pueden ser muy largas.",
+        "Que la falta de documentación lleva a malentendidos, olvidos y conflictos.",
+        "Que se necesita un software especial para grabar las conversaciones.",
+        "Que es una técnica de elicitación muy costosa."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 45,
+      "q": "La diferencia clave entre una 'restricción' y un 'supuesto' es:",
+      "a": [
+        "Las restricciones son hechos confirmados (límites), mientras que los supuestos son creencias que se aceptan como verdaderas sin prueba.",
+        "Las restricciones son técnicas y los supuestos son financieros.",
+        "Las restricciones las impone el equipo y los supuestos el cliente.",
+        "No hay diferencia, son términos intercambiables."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 46,
+      "q": "La documentación formal del alcance es crucial porque sirve como:",
+      "a": [
+        "Un manual de capacitación para nuevos miembros del equipo.",
+        "Una base de referencia acordada para evaluar el éxito del proyecto y gestionar cambios.",
+        "Un documento de marketing para atraer nuevos clientes.",
+        "El código fuente final del proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 47,
+      "q": "Un usuario final de un sistema de software generalmente se considera un stakeholder con:",
+      "a": [
+        "Alto poder y alto interés.",
+        "Bajo poder y alto interés.",
+        "Alto poder y bajo interés.",
+        "Bajo poder y bajo interés."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 48,
+      "q": "La práctica de usar un lenguaje simple y evitar tecnicismos innecesarios en una propuesta de proyecto es importante para:",
+      "a": [
+        "Asegurar que stakeholders no técnicos, como directivos o clientes, comprendan el valor y la solución.",
+        "Hacer que el documento sea más corto.",
+        "Demostrar la superioridad técnica del equipo de desarrollo.",
+        "Cumplir con estándares internacionales de documentación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 49,
+      "q": "¿Qué significa la 'R' (Relevant) en los objetivos SMART?",
+      "a": [
+        "Que el objetivo debe ser revisado periódicamente.",
+        "Que el objetivo debe ser realista.",
+        "Que el objetivo debe aportar un valor real y estar alineado con las metas superiores de la organización.",
+        "Que el objetivo requiere de recursos específicos."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 50,
+      "q": "La afirmación \"El sistema no incluirá un módulo de facturación electrónica en la versión 1.0\" debe documentarse en la sección de:",
+      "a": [
+        "Riesgos del proyecto.",
+        "Inclusiones del proyecto.",
+        "Exclusiones del proyecto.",
+        "Objetivos del proyecto."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 51,
+      "q": "Si un proyecto tiene un cronograma fijo y un presupuesto limitado, ¿cuál de los elementos de la triple restricción es más probable que deba ajustarse si el cliente solicita más funcionalidades?",
+      "a": [
+        "El tiempo.",
+        "El costo.",
+        "El alcance (probablemente reduciendo otras funcionalidades o la calidad).",
+        "Ninguno, se deben aceptar las nuevas funcionalidades."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 52,
+      "q": "El firmware de un router es un ejemplo de:",
+      "a": [
+        "Software de aplicación.",
+        "Software embebido.",
+        "Software de sistema.",
+        "Servicio web."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 53,
+      "q": "La etapa de 'Análisis' en la Ingeniería de Requerimientos se enfoca en:",
+      "a": [
+        "Escribir el código del sistema.",
+        "Documentar los requerimientos en un formato claro.",
+        "Detectar inconsistencias, ambigüedades y conflictos entre los requerimientos obtenidos.",
+        "Presentar el sistema terminado al cliente para su aprobación."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 54,
+      "q": "La herramienta visual que subdivide el trabajo del proyecto en fases, tareas y subtareas manejables se conoce como:",
+      "a": [
+        "Matriz de Poder-Interés.",
+        "Diagrama de Gantt.",
+        "Estructura de Desglose del Trabajo (WBS - Work Breakdown Structure).",
+        "Registro de Riesgos."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 55,
+      "q": "¿Por qué es un error común prometer más de lo que se puede cumplir en una propuesta de proyecto?",
+      "a": [
+        "Porque genera expectativas irreales que llevan a la insatisfacción del cliente y al fracaso del proyecto.",
+        "Porque aumenta el costo inicial de la propuesta.",
+        "Porque es una buena estrategia para ganar el proyecto.",
+        "Porque demuestra la confianza del equipo en sus habilidades."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 56,
+      "q": "Un 'stakeholder' es, en pocas palabras:",
+      "a": [
+        "Solamente el cliente que paga por el proyecto.",
+        "Cualquier persona que escribe código para el proyecto.",
+        "Alguien que afecta o es afectado por el proyecto.",
+        "El gerente de proyecto."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 57,
+      "q": "La principal función de los Criterios de Aceptación es servir como:",
+      "a": [
+        "Guía para el marketing del producto.",
+        "Contrato legal entre la empresa y el cliente.",
+        "Base objetiva para las pruebas y la validación del software.",
+        "Plan de comunicación con los stakeholders."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 58,
+      "q": "La característica 'evolutivo' del software implica que:",
+      "a": [
+        "El software nunca está completamente terminado y siempre está sujeto a cambios y mejoras.",
+        "El software se desarrolla siguiendo un modelo evolutivo de ADN.",
+        "El software se degrada con el tiempo como un ser vivo.",
+        "El software solo puede ser modificado por su creador original."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 59,
+      "q": "Un 'requerimiento vago' como \"El sistema debe ser rápido\" es un problema porque:",
+      "a": [
+        "Es demasiado técnico para el cliente.",
+        "No es medible y está abierto a interpretaciones subjetivas.",
+        "Requiere un presupuesto muy alto para cumplirse.",
+        "Solo puede ser implementado por desarrolladores senior."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 60,
+      "q": "¿Cuál es la consecuencia de no identificar y documentar adecuadamente los supuestos?",
+      "a": [
+        "El proyecto se vuelve más flexible y fácil de gestionar.",
+        "Se pueden convertir en focos de riesgo no anticipados que desvían el proyecto.",
+        "El cliente tiene más confianza en el equipo de desarrollo.",
+        "El presupuesto del proyecto se reduce automáticamente."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 61,
+      "q": "La definición formal de software del IEEE Std 610.12-1990 incluye programas, procedimientos y...",
+      "a": [
+        "El hardware asociado.",
+        "La documentación asociada.",
+        "El equipo de desarrollo.",
+        "Las ganancias esperadas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 62,
+      "q": "¿Cuál de los siguientes NO es un componente habitual de un producto de software?",
+      "a": [
+        "Código ejecutable (binarios o scripts).",
+        "Documentación de usuario (manuales).",
+        "El servidor físico donde se aloja la aplicación.",
+        "Documentación técnica (diagramas de arquitectura, APIs)."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 63,
+      "q": "La metodología de desarrollo en 'Cascada' (Waterfall) se caracteriza por:",
+      "a": [
+        "Ser un proceso iterativo y flexible.",
+        "Ser un proceso secuencial donde cada fase debe completarse antes de iniciar la siguiente.",
+        "Permitir cambios constantes en los requerimientos.",
+        "Entregar valor al cliente de forma continua."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 64,
+      "q": "Scrum, Kanban y XP son ejemplos de:",
+      "a": [
+        "Procesos de software ágiles.",
+        "Lenguajes de programación.",
+        "Sistemas operativos.",
+        "Procesos de software tradicionales en cascada."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 65,
+      "q": "¿Qué describe un requerimiento de usabilidad?",
+      "a": [
+        "La capacidad del sistema para manejar un gran número de usuarios.",
+        "La facilidad con la que un usuario puede aprender y utilizar el sistema.",
+        "La protección del sistema contra accesos no autorizados.",
+        "El tiempo de respuesta del sistema a una petición."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 66,
+      "q": "La técnica de 'Prototipado rápido' se utiliza en la etapa de elicitación para:",
+      "a": [
+        "Escribir el código final de la aplicación.",
+        "Validar y obtener feedback temprano sobre los requerimientos creando una versión preliminar y tangible del sistema.",
+        "Estimar el costo total del proyecto con alta precisión.",
+        "Documentar formalmente el alcance del proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 67,
+      "q": "La justificación en una propuesta de proyecto debe:",
+      "a": [
+        "Presentar la solución técnica en gran detalle.",
+        "Respaldar la necesidad del proyecto con datos y evidencia concreta.",
+        "Listar todos los posibles riesgos sin ofrecer mitigaciones.",
+        "Ser lo más breve posible, idealmente una sola frase."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 68,
+      "q": "¿Cuál es la principal diferencia entre un beneficio tangible y uno intangible?",
+      "a": [
+        "Los tangibles son para el cliente y los intangibles para el equipo.",
+        "Los tangibles son fáciles de cuantificar económicamente (ej. ahorro de costos), mientras que los intangibles no (ej. mejora de imagen).",
+        "Los tangibles se entregan al inicio del proyecto y los intangibles al final.",
+        "No hay diferencia, son lo mismo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 69,
+      "q": "En el flujo de trabajo para crear una propuesta, ¿qué se hace inmediatamente DESPUÉS de definir el problema y justificarlo?",
+      "a": [
+        "Presentar la propuesta al cliente.",
+        "Diseñar la solución propuesta a un alto nivel.",
+        "Recolectar la información inicial.",
+        "Estimar los recursos y costos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 70,
+      "q": "Un ejemplo de riesgo organizacional en un proyecto de software podría ser:",
+      "a": [
+        "La tecnología seleccionada tiene un bug desconocido.",
+        "La resistencia de los empleados a adoptar el nuevo sistema.",
+        "El servidor principal sufre una falla de hardware.",
+        "El costo de las licencias de software aumenta inesperadamente."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 71,
+      "q": "¿Por qué es importante documentar todo y no confiar en acuerdos verbales al definir el alcance?",
+      "a": [
+        "Porque los acuerdos verbales son difíciles de recordar y pueden llevar a interpretaciones distintas y conflictos.",
+        "Porque la ley exige que todos los acuerdos de software sean escritos.",
+        "Porque los acuerdos verbales son más costosos.",
+        "Porque es más fácil presentar un documento que hablar con el cliente."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 72,
+      "q": "¿Cómo se relaciona el cronograma con el alcance del proyecto?",
+      "a": [
+        "No tienen ninguna relación.",
+        "El cronograma se arma en base a las tareas necesarias para cumplir con el alcance definido.",
+        "El alcance se define después de que el cronograma está finalizado.",
+        "El cronograma solo incluye las reuniones, no las tareas del alcance."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 73,
+      "q": "La afirmación \"El sistema permitirá a los usuarios registrarse con nombre, email y contraseña\" es un ejemplo de:",
+      "a": [
+        "Una descripción de una inclusión.",
+        "Un criterio de aceptación.",
+        "Un supuesto.",
+        "Una exclusión."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 74,
+      "q": "El formato sugerido para documentar una inclusión incluye Título, Descripción, Criterios de Aceptación y:",
+      "a": [
+        "Presupuesto asignado.",
+        "Desarrollador responsable.",
+        "Dependencias (si aplica).",
+        "Fecha de inicio."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 75,
+      "q": "El alcance de un proyecto se define como la suma de:",
+      "a": [
+        "Solo las inclusiones.",
+        "Solo las exclusiones.",
+        "Las inclusiones y las exclusiones, que juntas definen el límite total del proyecto.",
+        "El presupuesto y el cronograma."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 76,
+      "q": "Una de las principales razones para documentar las exclusiones es para:",
+      "a": [
+        "Aumentar el presupuesto del proyecto.",
+        "Facilitar la gestión de cambios si se decide incluir algo que estaba excluido.",
+        "Hacer que el documento de alcance sea más largo.",
+        "Mostrar al cliente todas las cosas que el equipo no sabe hacer."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 77,
+      "q": "Los 'clientes' y 'proveedores' de una organización son ejemplos de stakeholders:",
+      "a": [
+        "Internos.",
+        "Externos.",
+        "Reguladores.",
+        "No relevantes."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 78,
+      "q": "La herramienta 'Matriz de Poder-Interés' se utiliza para:",
+      "a": [
+        "Calcular el presupuesto del proyecto.",
+        "Clasificar a los stakeholders para priorizar los esfuerzos de gestión y comunicación.",
+        "Diseñar la arquitectura del software.",
+        "Asignar tareas al equipo de desarrollo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 79,
+      "q": "En el ejemplo práctico de un sistema de reservas para un hotel, el 'Dueño del hotel' es un stakeholder clave porque típicamente tiene:",
+      "a": [
+        "Baja influencia y bajo interés.",
+        "Alta influencia y alto interés.",
+        "Baja influencia y alto interés.",
+        "Alta influencia y bajo interés."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 80,
+      "q": "Una 'Matriz de Trazabilidad de Requerimientos' se utiliza para:",
+      "a": [
+        "Vincular cada requerimiento con su criterio de aceptación y su prueba asociada.",
+        "Trazar el movimiento de los datos dentro del sistema.",
+        "Registrar las horas trabajadas por cada desarrollador.",
+        "Evaluar el rendimiento de los miembros del equipo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 81,
+      "q": "En metodologías tradicionales, los Criterios de Aceptación suelen estar incluidos en:",
+      "a": [
+        "El plan de marketing.",
+        "El documento de requerimientos.",
+        "El contrato de trabajo de los desarrolladores.",
+        "La factura final al cliente."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 82,
+      "q": "La afirmación \"El formulario de registro debe estar disponible en español e inglés\" es un ejemplo de criterio de aceptación de:",
+      "a": [
+        "Rendimiento.",
+        "Seguridad.",
+        "Usabilidad.",
+        "Compatibilidad."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 83,
+      "q": "El propósito del 'Acta de Constitución del Proyecto' es:",
+      "a": [
+        "Documentar en detalle todos los requerimientos funcionales.",
+        "Autorizar formalmente el inicio del proyecto y asignar al gerente de proyecto.",
+        "Servir como manual técnico del sistema.",
+        "Registrar las lecciones aprendidas al final del proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 84,
+      "q": "Si un supuesto clave del proyecto es \"El equipo de desarrollo contará con acceso a los servidores de producción\", el riesgo asociado si esto no se cumple es:",
+      "a": [
+        "Un retraso en el despliegue y lanzamiento del producto.",
+        "Una mejora en la calidad del código.",
+        "Una reducción en el costo del proyecto.",
+        "Un aumento en la satisfacción del cliente."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 85,
+      "q": "El seguimiento y control de las restricciones durante todo el ciclo de vida del proyecto es una actividad de:",
+      "a": [
+        "Monitoreo y control.",
+        "Iniciación.",
+        "Planificación.",
+        "Cierre."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 86,
+      "q": "El análisis de riesgos ayuda a identificar qué restricciones pueden transformarse en:",
+      "a": [
+        "Supuestos.",
+        "Riesgos críticos.",
+        "Objetivos del proyecto.",
+        "Funcionalidades adicionales."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 87,
+      "q": "El término 'producto' en desarrollo de software se refiere a:",
+      "a": [
+        "Solo al código fuente.",
+        "La metodología usada para construirlo.",
+        "El conjunto final de programas, datos y documentación entregado.",
+        "La ganancia económica que genera el software."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 88,
+      "q": "El término 'proceso' en desarrollo de software se refiere a:",
+      "a": [
+        "El software instalado en la computadora del cliente.",
+        "El conjunto estructurado de actividades y métodos para desarrollar el software.",
+        "Los errores encontrados durante las pruebas.",
+        "El resultado final entregado."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 89,
+      "q": "Un requerimiento de seguridad podría ser:",
+      "a": [
+        "El sistema debe permitir imprimir facturas.",
+        "El sistema debe cargar la página principal en menos de 3 segundos.",
+        "Las contraseñas de los usuarios deben almacenarse en la base de datos de forma encriptada.",
+        "El logo de la empresa debe aparecer en la esquina superior izquierda."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 90,
+      "q": "Un error común en la gestión de requerimientos es no involucrar a:",
+      "a": [
+        "El equipo de marketing.",
+        "Todos los stakeholders relevantes.",
+        "La competencia.",
+        "El equipo de finanzas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 91,
+      "q": "Jira, Trello y Azure DevOps son herramientas de:",
+      "a": [
+        "Software para la gestión de proyectos y requerimientos.",
+        "Software de diseño gráfico.",
+        "Software de base de datos.",
+        "Entornos de desarrollo integrado (IDEs)."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 92,
+      "q": "La principal razón por la que una buena Ingeniería de Requerimientos reduce costos es porque:",
+      "a": [
+        "Reduce el riesgo de retrabajo al detectar errores y ambigüedades en etapas tempranas.",
+        "Utiliza software gratuito para la gestión.",
+        "Requiere menos reuniones con el cliente.",
+        "Permite contratar desarrolladores más económicos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 93,
+      "q": "Un diagrama de Gantt es una herramienta utilizada para visualizar:",
+      "a": [
+        "La arquitectura del sistema.",
+        "El cronograma del proyecto y la dependencia entre tareas.",
+        "Las relaciones entre los stakeholders.",
+        "El presupuesto y los costos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 94,
+      "q": "El objetivo \"Instalar 10 nuevas computadoras en la oficina\" no es un buen objetivo de un proyecto de SOFTWARE porque:",
+      "a": [
+        "No es medible.",
+        "No es relevante para el desarrollo de software; es una tarea de infraestructura.",
+        "No tiene un plazo definido.",
+        "Es demasiado específico."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 95,
+      "q": "Una buena práctica para evitar propuestas vagas o genéricas es:",
+      "a": [
+        "Usar siempre la misma plantilla sin adaptarla al cliente.",
+        "Basar la justificación en datos concretos y evidencia de la necesidad real.",
+        "Prometer la mayor cantidad de funcionalidades posibles.",
+        "Evitar mencionar los riesgos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 96,
+      "q": "La comunicación constante con los interesados sobre los cambios en el alcance es fundamental para:",
+      "a": [
+        "Asegurar que todos estén alineados con los ajustes y sus implicaciones.",
+        "Justificar un aumento en el salario del gerente de proyecto.",
+        "Hacer el proyecto más burocrático.",
+        "Evitar que el cliente hable con los desarrolladores."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 97,
+      "q": "El proceso de identificar, documentar y controlar los cambios en el alcance se llama:",
+      "a": [
+        "Gestión de la calidad.",
+        "Gestión de cambios.",
+        "Gestión de riesgos.",
+        "Gestión de la comunicación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 98,
+      "q": "La priorización de inclusiones es importante para:",
+      "a": [
+        "Asegurar que todas las funcionalidades pedidas se desarrollen simultáneamente.",
+        "Determinar qué funcionalidades forman parte de la primera versión o fase del proyecto.",
+        "Eliminar la necesidad de tener exclusiones.",
+        "Complicar el trabajo del equipo de desarrollo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 99,
+      "q": "La aprobación formal de las inclusiones por parte del cliente o patrocinador es un paso de:",
+      "a": [
+        "Análisis.",
+        "Priorización.",
+        "Validación.",
+        "Implementación."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 100,
+      "q": "Una 'restricción de costo' en un proyecto es:",
+      "a": [
+        "La obligación de usar una tecnología costosa.",
+        "El tiempo máximo permitido para completar el proyecto.",
+        "Un presupuesto limitado que no puede ser excedido.",
+        "Un estándar de calidad que aumenta el costo de las pruebas."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 101,
+      "q": "El 'software comercial (off-the-shelf)' se diferencia del 'software a medida (custom)' en que:",
+      "a": [
+        "El comercial se desarrolla para un cliente específico, mientras que el a medida se vende a un mercado masivo.",
+        "El comercial se vende a un mercado masivo con una funcionalidad estándar, mientras que el a medida se crea para las necesidades específicas de un cliente.",
+        "El comercial es siempre gratuito y el a medida siempre es de pago.",
+        "El comercial no tiene ciclo de vida, mientras que el a medida sí."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 102,
+      "q": "La actividad de 'Mantenimiento' en el proceso de software incluye:",
+      "a": [
+        "Solo la definición de qué debe hacer el sistema.",
+        "La corrección de errores, la adaptación a nuevos entornos o la mejora de funcionalidades después del lanzamiento.",
+        "La escritura inicial del código.",
+        "La planificación de cómo se construirá el sistema."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 103,
+      "q": "Un 'diagrama de casos de uso' es una herramienta de modelado visual utilizada para:",
+      "a": [
+        "Mostrar la estructura de la base de datos.",
+        "Representar las interacciones entre los actores (usuarios) y el sistema para lograr un objetivo.",
+        "Planificar el cronograma del proyecto.",
+        "Calcular el costo de las licencias de software."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 104,
+      "q": "El objetivo \"Reducir el tiempo de espera promedio de los pacientes en un 30% en los próximos 6 meses\" es un buen ejemplo de objetivo SMART porque es:",
+      "a": [
+        "General y de alto nivel.",
+        "Específico, medible, alcanzable, relevante y temporal.",
+        "Una tarea simple de la lista de pendientes.",
+        "Una restricción impuesta por el cliente."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 105,
+      "q": "Si una propuesta de proyecto ignora las restricciones de presupuesto y tiempo, es probable que:",
+      "a": [
+        "Sea aprobada más rápidamente.",
+        "Genere un plan de proyecto no realista y destinado al fracaso.",
+        "El cliente confíe más en la propuesta.",
+        "El proyecto se complete antes de lo previsto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 106,
+      "q": "La definición del alcance es, en cierto modo, la traducción ejecutiva de los _____ hacia un plan concreto.",
+      "a": [
+        "Riesgos.",
+        "Requerimientos.",
+        "Costos.",
+        "Supuestos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 107,
+      "q": "Un conflicto entre el cliente y el equipo sobre lo que debía entregarse es un riesgo típico de:",
+      "a": [
+        "Un alcance mal definido.",
+        "El uso de tecnología obsoleta.",
+        "Un presupuesto demasiado alto.",
+        "Un equipo de desarrollo sobrecalificado."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 108,
+      "q": "El término 'entregable incompleto o irrelevante' significa que:",
+      "a": [
+        "El software funciona perfectamente pero se entregó tarde.",
+        "El software entregado no satisface la necesidad real del cliente, aunque técnicamente funcione.",
+        "Falta la documentación del software.",
+        "El cliente no pagó por el software."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 109,
+      "q": "La buena práctica de 'Revisar y actualizar las inclusiones en caso de cambios aprobados' es crucial para:",
+      "a": [
+        "Mantener la documentación del proyecto alineada con la realidad y evitar confusiones.",
+        "Aumentar la burocracia del proyecto.",
+        "Asegurar que el proyecto nunca cambie.",
+        "Reducir la comunicación con el cliente."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 110,
+      "q": "La afirmación \"El sistema no gestionará la logística de delivery propio en esta versión\" es un ejemplo de:",
+      "a": [
+        "Una inclusión bien definida.",
+        "Una exclusión clara y específica.",
+        "Un requerimiento no funcional.",
+        "Un riesgo de mercado."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 111,
+      "q": "En el contexto de la gestión de stakeholders, ¿qué es un 'Mapa de Empatía'?",
+      "a": [
+        "Un documento financiero que muestra la rentabilidad del proyecto.",
+        "Una herramienta para entender mejor a los usuarios finales, explorando lo que piensan, sienten, ven y oyen.",
+        "Un diagrama de red que muestra las conexiones del servidor.",
+        "Un listado de todos los stakeholders ordenados por su salario."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 112,
+      "q": "La gestión de expectativas es una función clave de:",
+      "a": [
+        "La programación del código.",
+        "La gestión de stakeholders.",
+        "El diseño de la base de datos.",
+        "La compra de hardware."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 113,
+      "q": "El criterio de aceptación \"El sistema debe validar la tarjeta en tiempo real\" corresponde a una historia de usuario sobre:",
+      "a": [
+        "Recuperar contraseña.",
+        "Registrar un nuevo usuario.",
+        "Pagar con tarjeta de crédito.",
+        "Ver el historial de pedidos."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 114,
+      "q": "La afirmación \"Las contraseñas deben almacenarse usando un algoritmo de encriptación seguro como bcrypt\" es un criterio de aceptación de:",
+      "a": [
+        "Funcionalidad.",
+        "Rendimiento.",
+        "Seguridad.",
+        "Compatibilidad."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 115,
+      "q": "Una de las buenas prácticas para la documentación de supuestos es:",
+      "a": [
+        "Registrarlos solo al final del proyecto.",
+        "Asociar cada supuesto con el área que impacta (tiempo, costo, calidad, alcance).",
+        "Mantenerlos en secreto para no preocupar al cliente.",
+        "No actualizarlos una vez que han sido escritos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 116,
+      "q": "Una 'Matriz de supuestos' es una tabla que típicamente enumera el supuesto, su descripción, impacto, nivel de riesgo y:",
+      "a": [
+        "El costo de validarlo.",
+        "El responsable de su seguimiento.",
+        "La tecnología asociada.",
+        "La fecha en que fue desmentido."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 117,
+      "q": "En el ejemplo de una aplicación móvil para un banco, la obligación de cumplir con la normativa GDPR es una restricción de tipo:",
+      "a": [
+        "Técnica.",
+        "De tiempo.",
+        "Legal o normativa.",
+        "De alcance."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 118,
+      "q": "La 'priorización' de restricciones es importante para:",
+      "a": [
+        "Eliminar todas las restricciones del proyecto.",
+        "Identificar cuáles restricciones son más críticas o inamovibles.",
+        "Negociar un presupuesto más alto.",
+        "Añadir más restricciones al proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 119,
+      "q": "La característica 'dependiente del entorno' del software significa que:",
+      "a": [
+        "El software funciona en cualquier computadora sin necesidad de nada más.",
+        "El software necesita hardware, un sistema operativo y a veces otro software para poder funcionar.",
+        "El costo del software depende del clima.",
+        "El software solo puede ser desarrollado en un entorno de oficina."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 120,
+      "q": "La principal diferencia entre software de sistema y software de aplicación es:",
+      "a": [
+        "El de sistema es tangible y el de aplicación es intangible.",
+        "El de sistema gestiona el hardware, mientras que el de aplicación realiza tareas para el usuario.",
+        "El de sistema es gratuito y el de aplicación es de pago.",
+        "El de sistema es simple y el de aplicación es complejo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 121,
+      "q": "Medir la calidad de un producto de software por la 'adecuación a las necesidades del usuario' se enfoca en:",
+      "a": [
+        "La calidad interna del código.",
+        "La rapidez con que se desarrolló.",
+        "Si el software realmente resuelve el problema para el cual fue creado.",
+        "El número de líneas de código que tiene."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 122,
+      "q": "La trazabilidad en la Ingeniería de Requerimientos se refiere a:",
+      "a": [
+        "La capacidad de seguir el rastro de un requerimiento desde su origen hasta su implementación y prueba.",
+        "La facilidad para encontrar el documento de requerimientos.",
+        "El historial de versiones del software.",
+        "La capacidad del sistema para ser rastreado por GPS."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 123,
+      "q": "Un error común al definir objetivos es plantear 'tareas' en lugar de 'resultados'. ¿Cuál es un ejemplo de este error?",
+      "a": [
+        "Objetivo: \"Reducir los costos operativos en un 15%\".",
+        "Objetivo: \"Implementar el módulo de pagos\".",
+        "Objetivo: \"Aumentar la cuota de mercado al 25% en el próximo año\".",
+        "Objetivo: \"Mejorar la retención de clientes en un 10%\"."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 124,
+      "q": "La etapa de 'Diseño' en un proceso de software se enfoca en:",
+      "a": [
+        "Definir qué debe hacer el sistema.",
+        "Planificar cómo el sistema cumplirá con los requerimientos (arquitectura, módulos, etc.).",
+        "Escribir el código del programa.",
+        "Corregir errores después del lanzamiento."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 125,
+      "q": "Si un proyecto de software comienza sin un alcance bien definido, es muy probable que sufra de:",
+      "a": [
+        "Demasiada claridad y poca flexibilidad.",
+        "Desvíos de tiempo y presupuesto.",
+        "Falta de comunicación con el cliente.",
+        "Un exceso de documentación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 126,
+      "q": "Una 'inclusión' bien definida debe ser clara, concreta y:",
+      "a": [
+        "Ambigüa.",
+        "Verificable.",
+        "Opcional.",
+        "Confidencial."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 127,
+      "q": "La principal razón para tener un proceso formal de gestión de cambios es:",
+      "a": [
+        "Rechazar todas las solicitudes de cambio del cliente.",
+        "Evaluar el impacto de un cambio solicitado antes de aprobarlo para evitar el caos.",
+        "Hacer que el proceso de cambio sea lo más lento posible.",
+        "Documentar que el equipo de desarrollo no es flexible."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 128,
+      "q": "Los 'programadores', 'testers' y 'gerentes' de la organización que desarrolla el software son stakeholders de tipo:",
+      "a": [
+        "Externo.",
+        "Regulador.",
+        "Interno.",
+        "Opositor."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 129,
+      "q": "La falta de apoyo de la gerencia (ej. no aprueba recursos) es un riesgo que puede surgir de una mala:",
+      "a": [
+        "Gestión de stakeholders.",
+        "Calidad del código.",
+        "Elección de base de datos.",
+        "Documentación técnica."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 130,
+      "q": "La afirmación \"La aplicación web debe funcionar correctamente en las últimas dos versiones de Chrome, Firefox y Edge\" es un criterio de aceptación de:",
+      "a": [
+        "Seguridad.",
+        "Compatibilidad.",
+        "Funcionalidad.",
+        "Usabilidad."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 131,
+      "q": "La principal diferencia entre metodologías ágiles y tradicionales (cascada) en cuanto a la documentación de requerimientos es:",
+      "a": [
+        "Las ágiles no documentan nada, las tradicionales documentan todo.",
+        "Las tradicionales lo concentran en un gran documento al inicio, mientras que las ágiles lo documentan de forma incremental (ej. en historias de usuario).",
+        "Las ágiles usan documentos en papel y las tradicionales en formato digital.",
+        "No hay ninguna diferencia."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 132,
+      "q": "El propósito de la 'Revisión periódica de supuestos' es:",
+      "a": [
+        "Asegurarse de que sigan siendo válidos a medida que avanza el proyecto y gestionar los riesgos asociados si cambian.",
+        "Memorizar todos los supuestos del proyecto.",
+        "Eliminar todos los supuestos para simplificar el proyecto.",
+        "Añadir nuevos supuestos cada semana."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 133,
+      "q": "Una 'restricción de alcance' define:",
+      "a": [
+        "El presupuesto máximo del proyecto.",
+        "Las limitaciones en la funcionalidad que debe entregarse.",
+        "La fecha límite de entrega.",
+        "El número de desarrolladores asignados."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 134,
+      "q": "Si un proyecto tiene un alcance flexible, pero un cronograma y presupuesto fijos, se dice que es un proyecto:",
+      "a": [
+        "Dirigido por el alcance (Scope-driven).",
+        "Dirigido por el tiempo y el costo (Time and cost-driven).",
+        "Sin restricciones.",
+        "Imposible de realizar."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 135,
+      "q": "¿Cuál es la característica del software que lo hace fundamentalmente diferente de los productos de ingeniería física como un puente?",
+      "a": [
+        "Su complejidad.",
+        "Su intangibilidad y la facilidad con la que puede ser modificado.",
+        "Su costo de desarrollo.",
+        "Su vida útil."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 136,
+      "q": "La documentación de usuario (manuales, guías rápidas) es un componente de:",
+      "a": [
+        "El proceso de software.",
+        "El producto de software.",
+        "Los riesgos del proyecto.",
+        "Los supuestos del proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 137,
+      "q": "El objetivo de la etapa de 'Verificación y Validación' en el proceso de software es:",
+      "a": [
+        "Asegurar que el software funciona, cumple con lo esperado y satisface las necesidades del usuario.",
+        "Definir los requerimientos iniciales.",
+        "Planificar la arquitectura del sistema.",
+        "Escribir el código fuente."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 138,
+      "q": "La gestión de cambios en los requerimientos es una actividad continua porque:",
+      "a": [
+        "Las necesidades del negocio y el contexto pueden cambiar durante el desarrollo del proyecto.",
+        "A los desarrolladores les gusta cambiar el código constantemente.",
+        "Es obligatorio por ley cambiar los requerimientos cada mes.",
+        "Ayuda a retrasar la fecha de entrega del proyecto."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 139,
+      "q": "Un error común al elaborar una propuesta es no alinearla con:",
+      "a": [
+        "Las propuestas de la competencia.",
+        "La estrategia de la organización o del cliente.",
+        "Las preferencias personales del desarrollador.",
+        "El último framework de moda."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 140,
+      "q": "La 'visión del proyecto' comunicada en la propuesta debe:",
+      "a": [
+        "Ser vaga y ambigua para permitir flexibilidad.",
+        "Ser clara y convincente, explicando el valor que aportará el software.",
+        "Enfocarse únicamente en los detalles técnicos.",
+        "Ser extremadamente larga y detallada."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 141,
+      "q": "¿Qué significa que el alcance actúa como un 'contrato conceptual'?",
+      "a": [
+        "Que es un documento legalmente vinculante que puede usarse en un juicio.",
+        "Que funciona como un acuerdo de entendimiento mutuo entre el cliente y el equipo sobre lo que se entregará.",
+        "Que es un documento que solo los conceptualistas pueden entender.",
+        "Que describe conceptos de software en lugar de funcionalidades reales."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 142,
+      "q": "Una de las mejores prácticas para definir el alcance es 'ser realista'. Esto implica:",
+      "a": [
+        "Prometer solo lo que es posible entregar dentro del tiempo y presupuesto establecidos.",
+        "Prometer todo lo que el cliente pida para asegurar el contrato.",
+        "Basar el alcance en la realidad virtual.",
+        "Ignorar las restricciones del proyecto."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 143,
+      "q": "En el ejemplo de un sistema de e-commerce, una 'inclusión' obvia sería:",
+      "a": [
+        "El módulo de carrito de compras.",
+        "La integración con la red social de la empresa.",
+        "El desarrollo de una aplicación móvil nativa.",
+        "El soporte técnico 24/7 de por vida."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 144,
+      "q": "En el mismo sistema de e-commerce, una 'exclusión' razonable para la primera versión sería:",
+      "a": [
+        "La capacidad de mostrar productos.",
+        "La integración con un sistema de facturación de AFIP.",
+        "La capacidad de que los usuarios creen una cuenta.",
+        "La integración con un medio de pago."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 145,
+      "q": "La resistencia al cambio por parte de los usuarios finales es un riesgo que se gestiona principalmente a través de:",
+      "a": [
+        "Una buena gestión de stakeholders, involucrándolos y comunicándose con ellos.",
+        "La elección de un lenguaje de programación más rápido.",
+        "Un aumento en el presupuesto del proyecto.",
+        "La contratación de más desarrolladores."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 146,
+      "q": "El objetivo de la gestión de stakeholders es:",
+      "a": [
+        "Identificar a los interesados para satisfacer sus expectativas y asegurar su apoyo al proyecto.",
+        "Darle a todos los stakeholders poder de decisión sobre el proyecto.",
+        "Evitar toda comunicación con los stakeholders para no generar interferencias.",
+        "Limitar el número de stakeholders a un máximo de tres."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 147,
+      "q": "La frase \"Como cliente, quiero poder pagar con tarjeta de crédito para completar mi compra de forma segura\" es un ejemplo de:",
+      "a": [
+        "Un criterio de aceptación.",
+        "Una historia de usuario (User Story).",
+        "Un supuesto.",
+        "Una restricción."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 148,
+      "q": "La principal consecuencia de no tener criterios de aceptación claros es que la definición de 'terminado' se vuelve:",
+      "a": [
+        "Objetiva y clara.",
+        "Subjetiva y propensa a discusiones.",
+        "Irrelevante.",
+        "Más rápida de alcanzar."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 149,
+      "q": "Establecer responsables para dar seguimiento a los supuestos críticos es una:",
+      "a": [
+        "Mala práctica que genera burocracia.",
+        "Buena práctica para la gestión proactiva de riesgos.",
+        "Tarea exclusiva del cliente.",
+        "Actividad que solo se realiza si el proyecto está retrasado."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 150,
+      "q": "El análisis de impacto de una restricción busca evaluar:",
+      "a": [
+        "Cómo la restricción puede afectar positivamente al proyecto.",
+        "Cómo la restricción puede afectar el cronograma, los costos o la calidad.",
+        "Quién es el culpable de que exista esa restricción.",
+        "Si la restricción puede ser ignorada."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 151,
+      "q": "La complejidad del software se debe, en parte, a sus múltiples:",
+      "a": [
+        "Colores de interfaz.",
+        "Interdependencias entre módulos.",
+        "Copias de seguridad.",
+        "Archivos de instalación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 152,
+      "q": "El producto de software es el 'qué se obtiene', mientras que el enfoque del proceso es el...",
+      "a": [
+        "'cuándo se paga'.",
+        "'dónde se instala'.",
+        "'por qué se hace'.",
+        "'cómo se hace'."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 153,
+      "q": "Un requerimiento funcional describe una interacción entre el sistema y su entorno. Un ejemplo es:",
+      "a": [
+        "El sistema debe ser fácil de usar.",
+        "El sistema debe enviar un correo de confirmación después de un registro exitoso.",
+        "El sistema debe ser desarrollado en Java.",
+        "El sistema debe soportar 500 usuarios a la vez."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 154,
+      "q": "La etapa de 'Especificación' en la IR consiste en:",
+      "a": [
+        "Documentar los requerimientos de forma clara y no ambigua.",
+        "Probar el software.",
+        "Obtener las ideas iniciales del cliente.",
+        "Corregir errores de código."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 155,
+      "q": "No definir claramente el problema en una propuesta de proyecto es un error porque:",
+      "a": [
+        "La solución propuesta podría no tener sentido o no resolver ninguna necesidad real.",
+        "Hace que la propuesta sea más corta y fácil de leer.",
+        "Permite al equipo tener más libertad creativa.",
+        "Reduce el costo de elaboración de la propuesta."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 156,
+      "q": "¿Qué significa la 'M' (Measurable) en los objetivos SMART?",
+      "a": [
+        "Que el objetivo debe ser memorable.",
+        "Que el objetivo debe tener indicadores para poder evaluar si se alcanzó o no.",
+        "Que el objetivo debe ser motivador para el equipo.",
+        "Que el objetivo debe ser manejable."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 157,
+      "q": "Un objetivo mal definido como \"Hacer un sistema de ventas\" corre el riesgo de:",
+      "a": [
+        "Ser demasiado específico y limitar al equipo.",
+        "Generar desorganización, sobrecarga de tareas y aumento de costos y plazos.",
+        "Ser completado antes de tiempo.",
+        "Ser muy fácil de medir."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 158,
+      "q": "La prevención del 'scope creep' es uno de los principales beneficios de:",
+      "a": [
+        "Tener un presupuesto ilimitado.",
+        "Contratar a más desarrolladores.",
+        "Definir claramente el alcance del proyecto.",
+        "Usar la última tecnología disponible."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 159,
+      "q": "El propósito de las 'inclusiones' es:",
+      "a": [
+        "Dejar claro para todas las partes qué se va a entregar.",
+        "Limitar las funcionalidades del sistema.",
+        "Documentar los problemas encontrados.",
+        "Aumentar el costo del proyecto."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 160,
+      "q": "Una buena práctica para documentar exclusiones es:",
+      "a": [
+        "Usar frases vagas como \"no incluye extras\".",
+        "Relacionar inclusiones y exclusiones para ver la frontera entre lo que sí y lo que no se hará.",
+        "Ocultar las exclusiones al cliente.",
+        "Escribirlas en un lenguaje técnico muy complejo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 161,
+      "q": "La 'resistencia al cambio' de los usuarios finales es un ejemplo de:",
+      "a": [
+        "Un riesgo del proyecto.",
+        "Un requerimiento funcional.",
+        "Un éxito del proyecto.",
+        "Una restricción técnica."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 162,
+      "q": "Un proyecto puede fracasar aunque el software funcione perfectamente si:",
+      "a": [
+        "Se entrega a tiempo y dentro del presupuesto.",
+        "No satisface las expectativas de los stakeholders clave.",
+        "El código está bien documentado.",
+        "Usa una arquitectura moderna."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 163,
+      "q": "La afirmación \"El sistema debe procesar 500 transacciones por minuto sin fallos\" es un criterio de aceptación de:",
+      "a": [
+        "Rendimiento.",
+        "Usabilidad.",
+        "Seguridad.",
+        "Funcionalidad."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 164,
+      "q": "La principal razón por la que los Criterios de Aceptación evitan retrabajos es porque:",
+      "a": [
+        "Son muy difíciles de escribir.",
+        "Dejan claros los límites de la aceptación, evitando devoluciones y cambios no planificados.",
+        "Son opcionales en la mayoría de los proyectos.",
+        "Se definen al final del proyecto, cuando ya no hay tiempo para cambiar nada."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 165,
+      "q": "Un supuesto no validado es un posible:",
+      "a": [
+        "Riesgo.",
+        "Entregable.",
+        "Objetivo.",
+        "Criterio de aceptación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 166,
+      "q": "La afirmación \"El equipo de desarrollo contará con las licencias de software necesarias\" es un ejemplo de:",
+      "a": [
+        "Supuesto.",
+        "Restricción.",
+        "Exclusión.",
+        "Requerimiento funcional."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 167,
+      "q": "La imagen de la 'triple restricción' (un triángulo con Tiempo, Costo y Alcance) ilustra que:",
+      "a": [
+        "Estos tres elementos son completamente independientes.",
+        "Si se cambia uno de los elementos, al menos uno de los otros dos se verá afectado.",
+        "La calidad es el elemento más importante de los tres.",
+        "El riesgo se encuentra fuera del triángulo y no afecta a los otros elementos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 168,
+      "q": "El proceso de listar todas las limitaciones conocidas al inicio del proyecto corresponde a la etapa de ____ de restricciones.",
+      "a": [
+        "Documentación.",
+        "Análisis de impacto.",
+        "Identificación.",
+        "Priorización."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 169,
+      "q": "La diferencia entre 'hardware' y 'software' es que:",
+      "a": [
+        "El hardware es la parte intangible y el software la parte física.",
+        "El hardware es la parte física y tangible, mientras que el software es la parte lógica e intangible.",
+        "No hay diferencia, ambos son necesarios.",
+        "El hardware es barato y el software es caro."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 170,
+      "q": "Medir un proceso de software por su 'predictibilidad' significa evaluar:",
+      "a": [
+        "Si el software puede predecir el futuro.",
+        "La capacidad del proceso para entregar resultados consistentes en términos de tiempo y costo.",
+        "Cuántas funcionalidades nuevas se pueden predecir.",
+        "Si el cliente está satisfecho."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 171,
+      "q": "La 'calidad del código' y la 'experiencia de usuario (UX)' son factores que influyen directamente en la calidad de:",
+      "a": [
+        "El producto.",
+        "El proceso.",
+        "El presupuesto.",
+        "El cronograma."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 172,
+      "q": "La 'metodología elegida' y las 'habilidades del equipo' son factores que influyen directamente en la calidad de:",
+      "a": [
+        "El producto.",
+        "El proceso.",
+        "La interfaz de usuario.",
+        "Los datos del sistema."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 173,
+      "q": "Un requerimiento no funcional de 'escalabilidad' se refiere a:",
+      "a": [
+        "La capacidad del sistema para crecer y manejar una carga de trabajo mayor en el futuro.",
+        "La facilidad para escalar una montaña con la aplicación.",
+        "La compatibilidad con diferentes tamaños de pantalla.",
+        "La seguridad de los datos del sistema."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 174,
+      "q": "La principal razón para incluir riesgos preliminares en una propuesta de proyecto es:",
+      "a": [
+        "Para asustar al cliente y que no apruebe el proyecto.",
+        "Para demostrar que se ha pensado en los posibles obstáculos y se tiene un enfoque proactivo.",
+        "Para aumentar el presupuesto solicitado.",
+        "Es un requisito legal en todas las propuestas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 175,
+      "q": "Un documento de alcance debe responder a la pregunta:",
+      "a": [
+        "¿Quiénes son los desarrolladores?",
+        "¿Qué problema resolverá el software y qué se hará (y qué no)?",
+        "¿Cuál es el lenguaje de programación elegido?",
+        "¿Cuándo se pagará la factura final?"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 176,
+      "q": "La estimación de costos en un proyecto depende directamente de:",
+      "a": [
+        "La cantidad de reuniones con el cliente.",
+        "Lo que se incluye en el alcance.",
+        "La opinión del gerente de marketing.",
+        "El clima del día de la planificación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 177,
+      "q": "La desmotivación del equipo es un riesgo que puede surgir cuando:",
+      "a": [
+        "El alcance del proyecto está claramente definido.",
+        "No hay un rumbo claro o las metas cambian constantemente.",
+        "Se cumplen los plazos y el presupuesto.",
+        "El cliente está muy satisfecho."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 178,
+      "q": "Una buena práctica en la gestión de inclusiones es NUNCA:",
+      "a": [
+        "Documentarlas por escrito.",
+        "Aceptarlas de forma verbal sin un registro formal.",
+        "Revisarlas con el cliente.",
+        "Priorizarlas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 179,
+      "q": "Si un proyecto para una sandwichería online establece que \"No se habilitarán pagos con billeteras virtuales en la primera versión\", esto es una:",
+      "a": [
+        "Exclusión.",
+        "Inclusión.",
+        "Supuesto.",
+        "Riesgo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 180,
+      "q": "En el ejemplo práctico de un sistema de gestión hospitalaria, un stakeholder clave sería:",
+      "a": [
+        "El proveedor de café de la cafetería del hospital.",
+        "Un paciente aleatorio de otra ciudad.",
+        "El jefe del departamento de informática y los médicos que usarán el sistema.",
+        "La empresa constructora que edificó el hospital hace 20 años."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 181,
+      "q": "La comunicación con stakeholders de alto poder y alto interés debe ser:",
+      "a": [
+        "Mínima y solo cuando sea estrictamente necesario.",
+        "Frecuente, proactiva y detallada.",
+        "A través de comunicados de prensa generales.",
+        "Únicamente por escrito y una vez al año."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 182,
+      "q": "Un problema común si no se definen criterios de aceptación es que:",
+      "a": [
+        "El equipo y el cliente tienen ideas diferentes sobre lo que significa 'funciona'.",
+        "El proyecto se termina antes de tiempo.",
+        "El presupuesto se reduce.",
+        "El código tiene menos errores."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 183,
+      "q": "Si en la documentación de un proyecto se lee \"Se considera verdadero que la red interna del cliente tiene la velocidad suficiente para la transferencia de datos\", se está leyendo un:",
+      "a": [
+        "Requerimiento funcional.",
+        "Supuesto.",
+        "Criterio de aceptación.",
+        "Exclusión."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 184,
+      "q": "El plan de gestión de riesgos a menudo referencia a los supuestos porque:",
+      "a": [
+        "Cada supuesto no validado es un riesgo potencial.",
+        "Los riesgos son un tipo de supuesto.",
+        "Es una forma de ocultar los riesgos.",
+        "No hay relación entre ellos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 185,
+      "q": "Un ejemplo de una 'restricción de recursos' sería:",
+      "a": [
+        "El proyecto debe usar la base de datos Oracle.",
+        "El proyecto solo cuenta con dos desarrolladores senior disponibles.",
+        "El proyecto debe cumplir con la ley de protección de datos.",
+        "El proyecto debe entregarse en 6 meses."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 186,
+      "q": "¿Qué elemento NO forma parte de la 'triple restricción' clásica?",
+      "a": [
+        "Tiempo.",
+        "Alcance.",
+        "Costo.",
+        "Calidad."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 187,
+      "q": "El objetivo de la gestión de restricciones es:",
+      "a": [
+        "Identificar, documentar y monitorear las limitaciones del proyecto para asegurar su cumplimiento.",
+        "Ignorar todas las limitaciones para fomentar la creatividad.",
+        "Convertir todas las restricciones en funcionalidades.",
+        "Negociar con el cliente para eliminar todas las restricciones."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 188,
+      "q": "La afirmación \"El software es intangible\" significa que:",
+      "a": [
+        "No tiene valor económico.",
+        "No se puede tocar físicamente, a diferencia del hardware.",
+        "Es muy fácil de entender.",
+        "No puede tener errores."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 189,
+      "q": "El éxito de un 'proceso' de software se evalúa, entre otras cosas, por su:",
+      "a": [
+        "Interfaz de usuario atractiva.",
+        "Eficiencia y cumplimiento de plazos.",
+        "Cantidad de descargas en la tienda de aplicaciones.",
+        "Popularidad en redes sociales."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 190,
+      "q": "El éxito de un 'producto' de software se evalúa, entre otras cosas, por:",
+      "a": [
+        "El número de reuniones de seguimiento realizadas.",
+        "La calidad, la funcionalidad y la satisfacción del usuario.",
+        "La metodología de desarrollo utilizada.",
+        "La puntualidad del equipo a las reuniones."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 191,
+      "q": "La principal falla de un requerimiento como \"El sistema debe ser fácil de usar\" es su:",
+      "a": [
+        "Complejidad técnica.",
+        "Falta de relevancia.",
+        "Subjetividad y falta de medibilidad.",
+        "Costo de implementación."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 192,
+      "q": "La etapa de la Ingeniería de Requerimientos que se ocupa de manejar las solicitudes de cambio de forma ordenada es:",
+      "a": [
+        "Elicitación.",
+        "Gestión de cambios.",
+        "Análisis.",
+        "Especificación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 193,
+      "q": "Una propuesta de proyecto funciona como una carta de presentación y una herramienta de:",
+      "a": [
+        "Facturación.",
+        "Soporte técnico.",
+        "Venta y persuasión.",
+        "Contratación de personal."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 194,
+      "q": "El objetivo \"Desarrollar una aplicación móvil\" no es un objetivo SMART completo porque le falta, como mínimo:",
+      "a": [
+        "Especificidad (¿para qué? ¿para quién?).",
+        "Medibilidad (¿cómo se mide el éxito?).",
+        "Temporalidad (¿cuándo?).",
+        "Todas las anteriores."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 195,
+      "q": "Un proyecto que sufre de 'desvíos de tiempo y presupuesto' es una consecuencia común de:",
+      "a": [
+        "Una definición de alcance pobre o inexistente.",
+        "Un equipo de desarrollo demasiado experimentado.",
+        "Un cliente que no se comunica.",
+        "Un presupuesto demasiado generoso."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 196,
+      "q": "El 'Acta de Alcance' es un documento que se construye sobre la base de:",
+      "a": [
+        "El plan de marketing.",
+        "La ingeniería de requerimientos.",
+        "Las facturas de los proveedores.",
+        "El manual de usuario de la versión anterior."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 197,
+      "q": "No aceptar nuevas inclusiones sin analizar su impacto en tiempo, costo y recursos es:",
+      "a": [
+        "Una mala práctica que muestra inflexibilidad.",
+        "Una buena práctica para controlar el scope creep.",
+        "Una forma de enojar al cliente.",
+        "Algo que solo se hace en proyectos gubernamentales."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 198,
+      "q": "La frase \"el sistema no contemplará compatibilidad con navegadores antiguos como Internet Explorer 8\" es una:",
+      "a": [
+        "Exclusión técnica específica.",
+        "Restricción de presupuesto.",
+        "Inclusión de compatibilidad.",
+        "Supuesto sobre los usuarios."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 199,
+      "q": "Un conflicto interno entre distintas áreas de la empresa que discuten por su participación en el proyecto es un riesgo asociado a:",
+      "a": [
+        "Una mala gestión de stakeholders.",
+        "Un error de programación.",
+        "Una falla de hardware.",
+        "Un cambio en la ley."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 200,
+      "q": "La gestión de la comunicación con los stakeholders implica definir qué información se comparte, con qué frecuencia y:",
+      "a": [
+        "A qué costo.",
+        "Por qué medio (reuniones, correos, reportes).",
+        "En qué idioma (si aplica).",
+        "Quién paga por la comunicación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 201,
+      "q": "La pregunta \"¿Qué problemas podrían surgir en un proyecto si no se definen criterios de aceptación claros desde el inicio?\" apunta a problemas de:",
+      "a": [
+        "Ambigüedad, retrabajo y disputas sobre si el producto está 'terminado'.",
+        "Falta de presupuesto para marketing.",
+        "Dificultad para contratar desarrolladores.",
+        "Exceso de documentación formal."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 202,
+      "q": "Los 'Planes de gestión', como el plan de riesgos o de calidad, a menudo referencian supuestos específicos porque:",
+      "a": [
+        "Los supuestos definen las estrategias para gestionar dichas áreas.",
+        "Es una forma de llenar espacio en el documento.",
+        "Los supuestos son irrelevantes para la gestión.",
+        "La ley así lo exige."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 203,
+      "q": "La principal diferencia entre el 'software a medida' y el 'software comercial' es el:",
+      "a": [
+        "Lenguaje de programación utilizado.",
+        "Público objetivo y el nivel de personalización.",
+        "Color de la interfaz.",
+        "Número de desarrolladores."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 204,
+      "q": "Un buen proceso de software debe ser, idealmente:",
+      "a": [
+        "Caótico y desorganizado.",
+        "Rígido e inmutable.",
+        "Predecible, controlable y eficiente.",
+        "Secreto y conocido solo por el gerente."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 205,
+      "q": "El objetivo final de la Ingeniería de Requerimientos es:",
+      "a": [
+        "Crear la mayor cantidad de documentación posible.",
+        "Asegurar un entendimiento común y claro de lo que el sistema debe hacer.",
+        "Elegir la tecnología para el proyecto.",
+        "Entrenar a los usuarios finales."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 206,
+      "q": "¿Qué significa la 'S' (Specific) en los objetivos SMART?",
+      "a": [
+        "Que el objetivo debe ser simple.",
+        "Que el objetivo debe ser claro, preciso y responder a 'qué, quién, cómo y para qué'.",
+        "Que el objetivo debe ser estratégico.",
+        "Que el objetivo debe ser satisfactorio para el equipo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 207,
+      "q": "Un 'stakeholder' que puede bloquear o impulsar el proyecto aunque no esté muy involucrado (ej. un directivo) tiene:",
+      "a": [
+        "Alta influencia y bajo interés.",
+        "Baja influencia y alto interés.",
+        "Baja influencia y bajo interés.",
+        "Alta influencia y alto interés."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 208,
+      "q": "El documento que detalla el 'qué' (producto) vs el 'cómo' (proceso) es una forma de explicar la diferencia entre:",
+      "a": [
+        "Alcance y presupuesto.",
+        "Producto y Proceso de Software.",
+        "Cliente y Usuario.",
+        "Hardware y Software."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 209,
+      "q": "Las 'reuniones de levantamiento de expectativas' son una técnica para:",
+      "a": [
+        "Gestionar stakeholders.",
+        "Definir el presupuesto.",
+        "Escribir código.",
+        "Probar el software."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 210,
+      "q": "La documentación de un supuesto debe ser revisada:",
+      "a": [
+        "Solo una vez al inicio del proyecto.",
+        "Nunca, para evitar cambios.",
+        "Periódicamente, a medida que se avanza en el ciclo de vida del software.",
+        "Solo si el cliente lo solicita explícitamente."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 211,
+      "q": "El cierre conceptual de la clase de 'Proceso y Producto' enfatiza que la gestión no solo busca entregar productos, sino también:",
+      "a": [
+        "Mejorar los procesos para que la calidad, plazos y costos sean predecibles.",
+        "Aumentar el número de reuniones.",
+        "Reducir el salario de los desarrolladores.",
+        "Usar la tecnología más antigua posible."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 212,
+      "q": "El cierre conceptual de la clase de 'Ingeniería de Requerimientos' destaca que el documento de requerimientos es la ____ de todo el proyecto.",
+      "a": [
+        "Base.",
+        "Conclusión.",
+        "Parte opcional.",
+        "Última fase."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 213,
+      "q": "El cierre conceptual de la clase de 'Propuesta de Proyecto' la define como una herramienta de comunicación y ____ de ideas.",
+      "a": [
+        "Ocultación.",
+        "Complejización.",
+        "Venta.",
+        "Eliminación."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 214,
+      "q": "La conexión principal entre los 'objetivos' y el 'alcance' es que:",
+      "a": [
+        "El alcance se define para lograr los objetivos del proyecto.",
+        "Los objetivos se definen después de que el alcance está cerrado.",
+        "Son conceptos totalmente independientes.",
+        "El alcance es un tipo de objetivo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 215,
+      "q": "La calidad final de un proyecto se mide comparando los entregables con:",
+      "a": [
+        "Lo que hizo la competencia.",
+        "Lo definido en el alcance.",
+        "Lo que el desarrollador pensó que era mejor.",
+        "El número de horas trabajadas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 216,
+      "q": "En el ejemplo práctico de un sistema de pedidos para una pizzería, una inclusión sería 'Definir 3 inclusiones y 3 exclusiones claras'. ¿Cuál de las siguientes es una inclusión válida?",
+      "a": [
+        "Visualizar el menú actualizado en la web.",
+        "Integración con un sistema de gestión de delivery con drones.",
+        "Un módulo de contabilidad para toda la empresa.",
+        "Una app móvil para jugar mientras se espera la pizza."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 217,
+      "q": "Siguiendo el caso de la pizzería, ¿cuál de las siguientes sería una exclusión razonable?",
+      "a": [
+        "Permitir el pago con tarjeta de crédito.",
+        "Registrar pedidos en línea.",
+        "No se incluirá un programa de fidelización de clientes en la primera versión.",
+        "Mostrar los ingredientes de cada pizza."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 218,
+      "q": "El cierre conceptual de la clase de 'Stakeholders' indica que el éxito del proyecto dependerá de:",
+      "a": [
+        "Ignorar las expectativas de todos.",
+        "Gestionar correctamente las expectativas de todos los interesados.",
+        "Solo enfocarse en las expectativas del patrocinador.",
+        "Dejar que las expectativas se gestionen solas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 219,
+      "q": "La conclusión de la clase de 'Criterios de Aceptación' es que constituyen la base sobre la cual se mide el ____ de un proyecto de software.",
+      "a": [
+        "Costo.",
+        "Éxito.",
+        "Tiempo.",
+        "Número de desarrolladores."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 220,
+      "q": "La conclusión de la clase de 'Supuestos' afirma que un equipo que gestiona sus supuestos de manera transparente está mejor preparado para enfrentar la:",
+      "a": [
+        "Certeza.",
+        "Incertidumbre.",
+        "Facilidad.",
+        "Rentabilidad."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 221,
+      "q": "La imagen de la 'triple restricción' a menudo se amplía para incluir otros factores como:",
+      "a": [
+        "Calidad y Riesgo.",
+        "El clima.",
+        "Las preferencias del equipo.",
+        "El marketing."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 222,
+      "q": "Un proyecto que busca 'mejorar un proceso de tu vida diaria' es un ejercicio para practicar la redacción de:",
+      "a": [
+        "Código complejo.",
+        "Una mini-propuesta de proyecto.",
+        "Un contrato legal.",
+        "Un manual técnico."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 223,
+      "q": "¿Cuál es la principal razón para involucrar a los futuros usuarios desde el inicio al elaborar una propuesta?",
+      "a": [
+        "Para asegurarse de que la solución propuesta realmente aborda sus necesidades y aumentar la probabilidad de adopción.",
+        "Para que ellos escriban la propuesta.",
+        "Para que aprueben el presupuesto.",
+        "Es una mala práctica, ya que retrasa el proceso."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 224,
+      "q": "La pregunta \"¿Qué gana el cliente con esto?\" es clave para una propuesta con orientación a:",
+      "a": [
+        "La tecnología.",
+        "Los beneficios.",
+        "Las restricciones.",
+        "El proceso."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 225,
+      "q": "Hacer propuestas 'de cajón' que no se adaptan al cliente es un error porque:",
+      "a": [
+        "Demuestra falta de interés y de comprensión del problema específico del cliente.",
+        "Es la forma más rápida de hacer una propuesta.",
+        "Ahorra tiempo y dinero.",
+        "Asegura que la propuesta sea genérica y aplicable a cualquier situación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 226,
+      "q": "La propuesta de proyecto es la 'semilla' del:",
+      "a": [
+        "Código fuente.",
+        "Plan de proyecto.",
+        "Manual de usuario.",
+        "Contrato de mantenimiento."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 227,
+      "q": "Si un cliente te dice \"quiero que mi sistema haga de todo\", como gestor del proyecto deberías:",
+      "a": [
+        "Aceptar y prometer todo para ganar el proyecto.",
+        "Cancelar la reunión inmediatamente.",
+        "Encauzar la conversación hacia un alcance realista, explicando la necesidad de priorizar y empezar con las funcionalidades más importantes.",
+        "Duplicar el presupuesto y el tiempo sin discutirlo."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 228,
+      "q": "La relación entre las inclusiones y los criterios de aceptación es que:",
+      "a": [
+        "Son lo mismo.",
+        "Cada inclusión debe tener criterios de aceptación que definan cuándo se considera completa y correcta.",
+        "Las inclusiones son para el cliente y los criterios de aceptación para el equipo.",
+        "No tienen ninguna relación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 229,
+      "q": "Documentar la inclusión 'Carrito de compras' para un e-commerce debería incluir una descripción, dependencias y:",
+      "a": [
+        "El nombre del desarrollador que la implementará.",
+        "Criterios de aceptación como 'El usuario puede agregar y quitar productos del carrito'.",
+        "El costo exacto de la funcionalidad.",
+        "El color del botón del carrito."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 230,
+      "q": "La gestión de exclusiones se conecta con la Unidad 4 (Supuestos y Restricciones) porque:",
+      "a": [
+        "Muchas exclusiones derivan de limitaciones técnicas o presupuestarias (restricciones).",
+        "Las exclusiones son un tipo de supuesto.",
+        "Las restricciones son un tipo de exclusión.",
+        "No hay conexión alguna."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 231,
+      "q": "La correcta identificación, registro y gestión de stakeholders es clave para el éxito porque de ellos dependen:",
+      "a": [
+        "Las expectativas a cumplir y las decisiones que guiarán el desarrollo.",
+        "La velocidad del procesador del servidor.",
+        "El lenguaje de programación a utilizar.",
+        "El color de la interfaz de la aplicación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 232,
+      "q": "Un 'Plan de comunicación' define las estrategias para interactuar con los:",
+      "a": [
+        "Competidores.",
+        "Stakeholders.",
+        "Medios de comunicación.",
+        "Proveedores de hardware."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 233,
+      "q": "Redactar tres criterios de aceptación para 'Como usuario quiero poder recuperar mi contraseña si la olvido' podría incluir:",
+      "a": [
+        "1. El usuario debe poder iniciar el proceso ingresando su email. 2. El sistema debe enviar un enlace de reseteo a ese email. 3. El enlace debe permitir establecer una nueva contraseña.",
+        "1. El sistema debe ser bonito. 2. Debe funcionar rápido. 3. No debe tener errores.",
+        "1. La base de datos debe ser MySQL. 2. El backend debe ser en PHP. 3. El frontend debe ser en React.",
+        "1. El costo debe ser bajo. 2. El tiempo debe ser corto. 3. El alcance debe ser amplio."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 234,
+      "q": "La principal conclusión sobre los supuestos es que si no se gestionan adecuadamente, pueden convertirse en:",
+      "a": [
+        "Funcionalidades.",
+        "Focos de riesgo no anticipados.",
+        "Ahorros de costos.",
+        "Mejoras de calidad."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 235,
+      "q": "Una reunión de alineación con stakeholders para aclarar limitaciones es una herramienta para la gestión de:",
+      "a": [
+        "Restricciones.",
+        "Código fuente.",
+        "Bases de datos.",
+        "Contrataciones."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 236,
+      "q": "La principal diferencia entre una 'tarea' y un 'objetivo' es que:",
+      "a": [
+        "Las tareas son para los gerentes y los objetivos para los desarrolladores.",
+        "Una tarea es una actividad ('cómo'), mientras que un objetivo es un resultado deseado ('qué').",
+        "Las tareas son largas y los objetivos son cortos.",
+        "No hay diferencia."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 237,
+      "q": "El objetivo \"Implementar un sistema biométrico de control de asistencia\" se vuelve SMART al agregarle:",
+      "a": [
+        "Detalles técnicos sobre el sensor biométrico.",
+        "Métricas (ej. genere reportes), un plazo (ej. 4 meses) y un contexto (ej. para exportar a Excel).",
+        "El nombre del proveedor del sistema.",
+        "El costo del hardware."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 238,
+      "q": "La 'claridad' como característica de un objetivo efectivo significa que:",
+      "a": [
+        "Debe ser transparente como el agua.",
+        "Debe estar escrito en forma precisa y sin ambigüedades.",
+        "Debe ser fácil de programar.",
+        "Debe ser aprobado por todos los stakeholders."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 239,
+      "q": "La 'relevancia' como característica de un objetivo efectivo significa que:",
+      "a": [
+        "Debe ser mencionado en todas las reuniones.",
+        "Debe responder a una necesidad concreta del cliente o la organización.",
+        "Debe ser fácil de recordar.",
+        "Debe ser técnicamente desafiante."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 240,
+      "q": "En el ejemplo del drugstore de la parte práctica, el 'Cajero' es un stakeholder de tipo:",
+      "a": [
+        "Usuario final.",
+        "Patrocinador.",
+        "Proveedor.",
+        "Regulador."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 241,
+      "q": "La 'documentación formal' en el plan del proyecto o en un documento específico es una buena práctica para gestionar:",
+      "a": [
+        "Las conversaciones informales del equipo.",
+        "Las restricciones.",
+        "Las vacaciones del personal.",
+        "Las ideas de proyectos futuros."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 242,
+      "q": "El cierre conceptual de la clase de 'Alcance' lo define como la 'traducción ejecutiva' de los requerimientos a un:",
+      "a": [
+        "Código ejecutable.",
+        "Manual de usuario.",
+        "Plan concreto.",
+        "Contrato de confidencialidad."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 243,
+      "q": "La principal función de una 'propuesta de proyecto' en la gestión de software es:",
+      "a": [
+        "Servir como el plan de proyecto detallado final.",
+        "Ser una primera pieza tangible para obtener aprobación y alinear expectativas.",
+        "Actuar como un tutorial para el software.",
+        "Documentar los errores encontrados durante las pruebas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 244,
+      "q": "La falta de un objetivo claro en un proyecto puede llevar a la desmotivación del equipo porque:",
+      "a": [
+        "El equipo no tiene una meta clara y alcanzable hacia la cual trabajar.",
+        "El equipo prefiere trabajar sin objetivos.",
+        "Los objetivos claros generan más trabajo.",
+        "Los objetivos son definidos por el cliente y no por el equipo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 245,
+      "q": "El 'análisis de impacto' de un cambio solicitado es crucial para:",
+      "a": [
+        "Entender cómo afectará al tiempo, costo y otros elementos del proyecto.",
+        "Rechazar el cambio automáticamente.",
+        "Aprobar el cambio sin pensarlo.",
+        " culpar al cliente por solicitarlo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 246,
+      "q": "La mejor forma de manejar un requerimiento vago como \"el sistema debe ser amigable\" es:",
+      "a": [
+        "Ignorarlo.",
+        "Trabajar con el cliente para descomponerlo en criterios de aceptación medibles y específicos.",
+        "Asumir que el desarrollador sabe lo que significa 'amigable'.",
+        "Añadirlo como una exclusión."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 247,
+      "q": "El riesgo de 'expectativas incumplidas' donde el cliente siente que no se logró lo que pedía, es una consecuencia directa de una mala gestión de:",
+      "a": [
+        "Stakeholders y alcance.",
+        "Finanzas.",
+        "Recursos humanos.",
+        "Hardware."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 248,
+      "q": "La principal razón por la que el software es 'evolutivo' es porque:",
+      "a": [
+        "El entorno de negocio y tecnológico cambia constantemente, requiriendo adaptaciones.",
+        "El código se degrada y necesita ser reescrito cada año.",
+        "Es una ley de la física.",
+        "A los programadores les aburre el código antiguo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 249,
+      "q": "Un documento que define que \"el sistema permitirá el login con correo y contraseña\" pero \"no permitirá el login con redes sociales\" está definiendo:",
+      "a": [
+        "Una inclusión y una exclusión.",
+        "Dos inclusiones.",
+        "Dos exclusiones.",
+        "Un riesgo y un supuesto."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 250,
+      "q": "El resultado final de un 'proceso' de software es un:",
+      "a": [
+        "Proceso mejorado.",
+        "Producto.",
+        "Equipo más grande.",
+        "Presupuesto más bajo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 251,
+      "q": "El ciclo de vida de un producto de software (desarrollo, despliegue, mantenimiento, retiro) es una de sus:",
+      "a": [
+        "Características.",
+        "Restricciones.",
+        "Suposiciones.",
+        "Exclusiones."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 252,
+      "q": "DevOps (integración y despliegue continuo) es un ejemplo de:",
+      "a": [
+        "Un producto de software.",
+        "Un proceso de software.",
+        "Un requerimiento no funcional.",
+        "Un stakeholder."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 253,
+      "q": "La frase clave \"Un software bien desarrollado pero con requerimientos mal definidos es un fracaso seguro\" resalta la importancia de:",
+      "a": [
+        "La Ingeniería de Requerimientos.",
+        "La velocidad de programación.",
+        "La elección del hardware.",
+        "El marketing del producto."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 254,
+      "q": "La 'orientación a beneficios' en una propuesta significa:",
+      "a": [
+        "Enfocarse en las características técnicas.",
+        "Responder siempre a la pregunta '¿qué gana el cliente con esto?'.",
+        "Garantizar un beneficio económico al equipo de desarrollo.",
+        "Listar únicamente los beneficios intangibles."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 255,
+      "q": "La principal diferencia entre un objetivo general y un objetivo específico es el nivel de:",
+      "a": [
+        "Costo.",
+        "Detalle y medibilidad.",
+        "Dificultad.",
+        "Aprobación requerida."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 256,
+      "q": "El documento de alcance sirve como referencia para la ____ al final del proyecto.",
+      "a": [
+        "Facturación.",
+        "Validación.",
+        "Contratación.",
+        "Planificación futura."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 257,
+      "q": "Usar herramientas como Jira o Trello para dar visibilidad a todos los interesados es una buena práctica para la gestión de:",
+      "a": [
+        "Inclusiones y tareas.",
+        "Presupuesto.",
+        "Contratos legales.",
+        "Hardware."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 258,
+      "q": "Las exclusiones se conectan con la 'gestión de cambios' porque:",
+      "a": [
+        "Todo lo excluido puede reingresar más adelante como una mejora o nueva fase a través de un proceso de cambio.",
+        "Las exclusiones evitan cualquier tipo de cambio en el proyecto.",
+        "La gestión de cambios solo se aplica a las inclusiones.",
+        "Las exclusiones son el resultado de una mala gestión de cambios."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 259,
+      "q": "El nivel de apoyo o resistencia que tendrá el equipo de desarrollo depende en gran medida de la gestión de:",
+      "a": [
+        "Stakeholders.",
+        "La base de datos.",
+        "El código fuente.",
+        "Los servidores."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 260,
+      "q": "Si un proyecto no define Criterios de Aceptación, ¿cómo sabe el equipo de pruebas qué probar?",
+      "a": [
+        "No lo sabe, las pruebas se vuelven subjetivas y poco efectivas.",
+        "El equipo de pruebas define los criterios sobre la marcha.",
+        "El cliente lo indica verbalmente durante las pruebas.",
+        "Se prueba que el programa no se cierre inesperadamente."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 261,
+      "q": "La frase \"La conectividad de red será estable y suficiente\" en la planificación de un sistema web es un:",
+      "a": [
+        "Supuesto.",
+        "Requerimiento funcional.",
+        "Hecho comprobado.",
+        "Riesgo inevitable."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 262,
+      "q": "La 'documentación formal' es una técnica clave para gestionar:",
+      "a": [
+        "La creatividad del equipo.",
+        "Las restricciones del proyecto.",
+        "Las pausas para el café.",
+        "La motivación del personal."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 263,
+      "q": "La característica de que el software es 'complejo' se debe a que a menudo tiene:",
+      "a": [
+        "Un solo archivo ejecutable.",
+        "Cero interdependencias.",
+        "Múltiples interdependencias y miles de líneas de código.",
+        "Un manual de usuario muy corto."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 264,
+      "q": "¿Puede existir un buen producto con un proceso caótico (crunch)?",
+      "a": [
+        "No, es absolutamente imposible.",
+        "Sí, pero es un modelo riesgoso, insostenible y no garantiza resultados consistentes.",
+        "Sí, de hecho, es la mejor manera de asegurar la calidad.",
+        "Solo si el presupuesto es ilimitado."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 265,
+      "q": "Un 'requerimiento de compatibilidad' especifica:",
+      "a": [
+        "Con qué otros sistemas, navegadores o dispositivos debe funcionar el software.",
+        "Qué tan rápido debe ser el software.",
+        "Qué tan seguro debe ser el software.",
+        "Qué funcionalidades debe tener el software."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 266,
+      "q": "El objetivo de la 'claridad' en la elaboración de una propuesta es:",
+      "a": [
+        "Usar un lenguaje técnico complejo para impresionar al cliente.",
+        "Usar un lenguaje simple y sin tecnicismos innecesarios para que todos lo entiendan.",
+        "Hacer la propuesta lo más larga posible.",
+        "Escribir la propuesta en varios idiomas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 267,
+      "q": "Un objetivo que no es 'Medible' (Measurable) tiene el problema de que:",
+      "a": [
+        "Es imposible saber objetivamente si se ha alcanzado o no.",
+        "Es demasiado caro de implementar.",
+        "No es relevante para el negocio.",
+        "Requiere demasiado tiempo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 268,
+      "q": "La principal función del documento de alcance es:",
+      "a": [
+        "Definir los límites del proyecto para evitar malentendidos.",
+        "Ser un tutorial para los desarrolladores.",
+        "Listar los salarios del equipo de proyecto.",
+        "Servir como plan de marketing."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 269,
+      "q": "Una inclusión como 'Módulo de registro de usuarios' debe tener un criterio de aceptación como:",
+      "a": [
+        "El módulo debe ser programado en Python.",
+        "El usuario puede crear una cuenta y recibir un correo de confirmación.",
+        "El módulo debe estar listo en dos semanas.",
+        "El módulo debe costar menos de $1000."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 270,
+      "q": "¿Por qué es una buena práctica mantener un documento de exclusiones actualizado?",
+      "a": [
+        "Porque el alcance puede cambiar y lo que era una exclusión puede negociarse para convertirse en una inclusión en una fase futura.",
+        "Para recordar al cliente todo lo que no se le va a entregar.",
+        "Es un requisito legal que debe actualizarse diariamente.",
+        "No es una buena práctica, el documento de exclusiones debe ser inmutable."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 271,
+      "q": "Si un stakeholder clave como el 'patrocinador' no está satisfecho, el proyecto corre un alto riesgo de:",
+      "a": [
+        "Terminar antes de lo previsto.",
+        "Perder su financiación o ser cancelado.",
+        "Recibir un aumento de presupuesto.",
+        "Ser más fácil de gestionar."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 272,
+      "q": "Los criterios de aceptación son la definición objetiva de cuándo un entregable está:",
+      "a": [
+        "Listo para empezar.",
+        "A mitad de desarrollo.",
+        "Listo y cumple con la calidad esperada.",
+        "Listo para ser descartado."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 273,
+      "q": "La consecuencia de no documentar los supuestos de manera formal es que:",
+      "a": [
+        "Se pueden generar malentendidos sobre las condiciones de la planificación y los riesgos no son visibles.",
+        "El proyecto se vuelve más ágil.",
+        "Se ahorra mucho tiempo en documentación.",
+        "El cliente tiene más flexibilidad."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 274,
+      "q": "Un ejemplo de 'restricción legal' en un proyecto de software de salud sería:",
+      "a": [
+        "La obligación de cumplir con la ley HIPAA de privacidad de datos de pacientes.",
+        "El proyecto debe ser entregado en 9 meses.",
+        "El sistema debe ser desarrollado en C#.",
+        "El presupuesto no puede superar los $200,000."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 275,
+      "q": "Si el alcance de un proyecto aumenta, ¿qué le sucede probablemente al tiempo y al costo según la triple restricción?",
+      "a": [
+        "Disminuyen.",
+        "Se mantienen igual.",
+        "También tienden a aumentar.",
+        "Se vuelven irrelevantes."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 276,
+      "q": "La característica 'No se desgasta físicamente' del software implica que:",
+      "a": [
+        "El software es eterno y nunca necesita actualizaciones.",
+        "Los fallos del software no se deben a la fatiga del material, sino a errores latentes o cambios en el entorno.",
+        "El software es inmune a los virus informáticos.",
+        "El software no ocupa espacio en el disco duro."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 277,
+      "q": "Un proceso de software se considera 'maduro' cuando es:",
+      "a": [
+        "Antiguo y obsoleto.",
+        "Definido, gestionado, medible y optimizado.",
+        "Simple y sin documentación.",
+        "Completamente manual."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 278,
+      "q": "La principal razón para 'priorizar' requerimientos es que:",
+      "a": [
+        "Generalmente no es posible o deseable construir todo a la vez, por lo que se debe enfocar en lo más valioso primero.",
+        "A los clientes les gusta ver listas ordenadas.",
+        "Es una forma de rechazar los requerimientos menos importantes.",
+        "Ayuda a que el proyecto dure más tiempo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 279,
+      "q": "La 'brevedad' es una buena práctica en la elaboración de una propuesta porque:",
+      "a": [
+        "Una propuesta larga demuestra más trabajo.",
+        "Los responsables de la toma de decisiones suelen tener poco tiempo y valoran la información concisa y al punto.",
+        "Una propuesta corta es más barata de imprimir.",
+        "Es más fácil de escribir."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 280,
+      "q": "El objetivo \"Reducir las llamadas al soporte técnico en un 40% para fin de año mediante la implementación de una nueva sección de FAQ\" es un ejemplo de:",
+      "a": [
+        "Un objetivo SMART.",
+        "Un objetivo vago.",
+        "Una tarea del cronograma.",
+        "Una restricción del proyecto."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 281,
+      "q": "La 'calidad' en el contexto de la triple restricción a menudo se considera el resultado central que se ve afectado por los cambios en:",
+      "a": [
+        "Tiempo, costo y alcance.",
+        "El equipo de marketing.",
+        "La ubicación de la oficina.",
+        "El proveedor de internet."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 282,
+      "q": "El documento de 'inclusiones' es una pieza clave para la planificación porque:",
+      "a": [
+        "A partir de él se pueden estimar el cronograma, los costos y los recursos necesarios.",
+        "Es el único documento que lee el cliente.",
+        "Define lo que no se hará en el proyecto.",
+        "Es un documento opcional en la mayoría de los proyectos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 283,
+      "q": "Si se decide incluir una funcionalidad que estaba previamente en la lista de 'exclusiones', se debe:",
+      "a": [
+        "Hacerlo en secreto sin que el cliente se entere.",
+        "Iniciar un proceso formal de gestión de cambios, analizando su impacto y obteniendo aprobación.",
+        "Pedir al desarrollador que lo haga en su tiempo libre.",
+        "Cancelar el proyecto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 284,
+      "q": "Un 'gerente de finanzas' que debe aprobar el presupuesto del proyecto es un stakeholder con:",
+      "a": [
+        "Bajo poder y alto interés.",
+        "Alto poder y probablemente bajo interés en los detalles técnicos.",
+        "Bajo poder y bajo interés.",
+        "Alto poder y alto interés en todos los detalles."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 285,
+      "q": "Un criterio de aceptación debe ser escrito de tal manera que al final solo pueda tener dos resultados:",
+      "a": [
+        "Bueno o malo.",
+        "Cumplido o no cumplido.",
+        "Rápido o lento.",
+        "Caro o barato."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 286,
+      "q": "La 'toma de decisiones informada' se facilita cuando los supuestos y sus posibles impactos son:",
+      "a": [
+        "Desconocidos.",
+        "Documentados y transparentes.",
+        "Ignorados.",
+        "Ocultados."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 287,
+      "q": "Una 'restricción de calidad' podría ser:",
+      "a": [
+        "El sistema debe ser entregado en 3 meses.",
+        "El sistema debe tener una cobertura de pruebas unitarias de al menos el 85%.",
+        "El costo del proyecto no debe exceder los $30,000.",
+        "El sistema debe incluir un módulo de chat."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 288,
+      "q": "Si se reduce el tiempo de un proyecto (restricción de tiempo) sin cambiar el alcance, es probable que aumente el:",
+      "a": [
+        "Costo (ej. más desarrolladores) o disminuya la calidad.",
+        "Alcance.",
+        "Tiempo de nuevo.",
+        "Número de exclusiones."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 289,
+      "q": "La documentación técnica (diagramas de arquitectura, especificación de APIs) está dirigida principalmente a:",
+      "a": [
+        "Los usuarios finales.",
+        "El equipo de desarrollo y mantenimiento.",
+        "El equipo de marketing.",
+        "Los inversores."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 290,
+      "q": "La actividad de 'Especificación' en el proceso de software es análoga a _____ en la construcción de un edificio.",
+      "a": [
+        "Poner los ladrillos.",
+        "Crear los planos detallados.",
+        "La idea inicial de construir algo.",
+        "La demolición del edificio antiguo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 291,
+      "q": "Un error común al gestionar requerimientos es 'no priorizar'. Esto lleva a:",
+      "a": [
+        "Un desarrollo más rápido y eficiente.",
+        "Tratar todos los requerimientos como igualmente importantes, lo que dificulta la planificación y el enfoque.",
+        "Una mayor satisfacción del cliente.",
+        "Un presupuesto más bajo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 292,
+      "q": "La 'presentación cuidada' (formato limpio y profesional) de una propuesta es importante porque:",
+      "a": [
+        "Refleja el profesionalismo y la atención al detalle del equipo.",
+        "Es más importante que el contenido.",
+        "Es un requisito legal.",
+        "Asegura que el software no tendrá errores."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 293,
+      "q": "Un objetivo que no es 'Alcanzable' (Achievable) tiene el efecto de:",
+      "a": [
+        "Motivar al equipo a lograr lo imposible.",
+        "Desmotivar al equipo y condenar el proyecto al fracaso desde el principio.",
+        "Reducir el presupuesto del proyecto.",
+        "Simplificar la planificación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 294,
+      "q": "La gestión del alcance es un proceso continuo que implica definir, validar y ____ el alcance a lo largo del proyecto.",
+      "a": [
+        "Ignorar.",
+        "Controlar.",
+        "Reducir.",
+        "Duplicar."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 295,
+      "q": "La relación entre la 'calidad final' y el 'alcance' es que la calidad se evalúa en función del cumplimiento de lo definido en el:",
+      "a": [
+        "Alcance.",
+        "Presupuesto.",
+        "Cronograma.",
+        "Plan de marketing."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 296,
+      "q": "La gestión de stakeholders se vuelve más compleja en proyectos con:",
+      "a": [
+        "Un solo stakeholder.",
+        "Muchos stakeholders con intereses diversos o en conflicto.",
+        "Un presupuesto muy claro.",
+        "Un alcance muy pequeño."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 297,
+      "q": "Los criterios de aceptación son fundamentales tanto en proyectos ágiles como en enfoques:",
+      "a": [
+        "Caóticos.",
+        "Tradicionales.",
+        "Sin planificación.",
+        "De bajo presupuesto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 298,
+      "q": "Si un proyecto tiene el supuesto de que \"los requerimientos proporcionados por el cliente no sufrirán modificaciones sustanciales\", ¿cuál es el riesgo asociado?",
+      "a": [
+        "Si los requerimientos cambian, el cronograma y el presupuesto se verán afectados negativamente.",
+        "El proyecto terminará antes de tiempo.",
+        "El cliente estará más satisfecho.",
+        "El equipo tendrá menos trabajo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 299,
+      "q": "El 'proceso de gestión de restricciones' incluye Identificación, Documentación, Análisis de Impacto, Priorización y:",
+      "a": [
+        "Ignorancia.",
+        "Monitoreo y Control.",
+        "Aceptación.",
+        "Cancelación."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 300,
+      "q": "El cierre conceptual de todo el material de estudio podría resumirse en que una gestión de software exitosa requiere un equilibrio y una gestión cuidadosa de:",
+      "a": [
+        "Solo la tecnología y la programación.",
+        "Las personas (stakeholders), los procesos (cómo se trabaja) y el producto (qué se entrega, definido por el alcance, restricciones y supuestos).",
+        "Únicamente el presupuesto.",
+        "Solo el cronograma y las fechas de entrega."
+      ],
+      "correct": 2
+    }
+  ]
+}
